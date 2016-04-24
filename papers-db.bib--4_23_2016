@@ -1,0 +1,2599 @@
+% This file was created with JabRef 2.10b2.
+% Encoding: ISO8859_1
+
+
+@Article{LimitCryptoSigAuthJiang2012,
+  Title                    = {On the Limitation of Embedding Cryptographic Signature for Primary Transmitter Authentication},
+  Author                   = {Tingting Jiang et al.},
+  Journal                  = {IEEE Wireless Communications Letters},
+  Year                     = {2012},
+
+  Month                    = {August},
+  Number                   = {4},
+  Volume                   = {1},
+
+  Abstract                 = {Recently, an interesting primary transmitter authentication scheme was proposed. The main idea of this scheme is to have the primary transmitter embed cryptographic authentication tag at the physical layer. There are a number of features that make this scheme attractive. In this paper, we investigate the effective coverage areas for the primary and secondary receivers before and after applying this scheme. During the process, we reveal a serious limitation of this scheme, which may prohibit its application in practice.},
+  Owner                    = {egaebel},
+  Review                   = {Problem: Ensuring adequate service coverage to primary and secondary users in spectrum sharing scenarios while authenticating the primary user signals.\\ \\ Solution: This paper points out an important limitation of the often proposed cryptographic watermarking for primary user authentication. The paper analyzes the bit-error rate and the effective service coverage of signals having cryptographic symbols embedded, both in comparison to signals with no embedding. The paper finds that at least 65% of secondary users will be unable to authenticate primary users due to the signal degradation caused by the cryptographic embedding. This paper is EXTREMELY important as it shows a very simple analysis of the limitations of cryptographic embedding, which seems VERY appealing if you listen to those who propose it in papers, with apparently no thought given to practical applications.\\ \\},
+  Timestamp                = {2015.02.13}
+}
+
+@Electronic{HoloLensSharingLocalNetwork2016,
+  Title                    = {Hologram sharing},
+  Author                   = {Windows Holographic Developer Forum moderator},
+  Month                    = {April},
+  Url                      = {http://forums.hololens.com/discussion/comment/1135#Comment_1135},
+  Year                     = {2016},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.23}
+}
+
+@TechReport{L-RCoverageFCC2004,
+  Title                    = {Longley-Rice Methodology for Evaluating TV Coverage and Interference},
+  Author                   = {FCC OET Bulletin No. 69},
+  Institution              = {FCC},
+  Year                     = {2004},
+  Month                    = {February},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.05.14}
+}
+
+@InProceedings{TrustLearningRettinger2007,
+  Title                    = {Learning Initial Trust Among Interacting Agents},
+  Author                   = {Achim Rettinger, Matthias Nickles, Volker Tresp},
+  Booktitle                = {Cooperative Information Agents XI},
+  Year                     = {2007},
+  Month                    = {September},
+  Pages                    = {313-327},
+
+  Abstract                 = {Trust learning is a crucial aspect of information exchange, negotiation, and any other kind of social interaction among autonomous agents in open systems. But most current probabilistic models for computational trust learning lack the ability to take context into account when trying to predict future behavior of interacting agents. Moreover, they are not able to transfer knowledge gained in a specific context to a related context. Humans, by contrast, have proven to be especially skilled in perceiving traits like trustworthiness in such so-called initial trust situations. The same restriction applies to most multiagent learning problems. In complex scenarios most algorithms do not scale well to large state-spaces and need numerous interactions to learn. We argue that trust related scenarios are best represented in a system of relations to capture semantic knowledge. Following recent work on nonparametric Bayesian models we propose a flexible and context sensitive way to model and learn multidimensional trust values which is particularly well suited to establish trust among strangers without prior relationship. To evaluate our approach we extend a multiagent framework by allowing agents to break an agreed interaction outcome retrospectively. The results suggest that the inherent ability to discover clusters and relationships between clusters that are best supported by the data allows to make predictions about future behavior of agents especially when initial trust is involved.},
+  Owner                    = {egaebel},
+  Review                   = {This paper presents a system on modeling trust between multiple agents using a probabilistic graphical model. I think I can use a similar, although definitely distinct, idea for modeling trust within fusion centers!},
+  Timestamp                = {2015.04.13}
+}
+
+@Article{IEEE80211afWhiteSpaceStandardFlores2013,
+  Title                    = {IEEE 802.11af: A Standard for TV White Space Spectrum Sharing},
+  Author                   = {Adriana B. Flores, Ryan E. Guerra, Edward W. Knightly, Peter Ecclesine, and Santosh Pandey},
+  Journal                  = {IEEE Communications Magazie},
+  Year                     = {2013},
+
+  Month                    = {October},
+  Number                   = {10},
+  Pages                    = {92-100},
+  Volume                   = {51},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.05.14}
+}
+
+@InBook{LBPHAhonen2004,
+  Title                    = {Computer Vision - ECCV 2004: 8th European Conference on Computer Vision, Prague, Czech Republic, May 11-14, 2004. Proceedings, Part I},
+  Author                   = {Ahonen, Timo and Hadid, Abdenour and Pietik{\"a}inen, Matti},
+  Chapter                  = {Face Recognition with Local Binary Patterns},
+  Editor                   = {Pajdla, Tom{\'a}s and Matas, Ji{\v{r}}{\'i}},
+  Pages                    = {469--481},
+  Publisher                = {Springer Berlin Heidelberg},
+  Year                     = {2004},
+
+  Address                  = {Berlin, Heidelberg},
+
+  Doi                      = {10.1007/978-3-540-24670-1_36},
+  ISBN                     = {978-3-540-24670-1},
+  Owner                    = {egaebel},
+  Timestamp                = {2016.03.18},
+  Url                      = {http://dx.doi.org/10.1007/978-3-540-24670-1_36}
+}
+
+@Misc{OpenFaceAmos2016,
+  Title                    = {OpenFace: Face Recognition with Deep Neural Networks},
+
+  Author                   = {Amos, Brandon and Ludwiczuk, Bartosz and Harkes, Jan and Pillai, Padmanabhan and Elgazzar, Khalid and Satyanarayanan, Mahadev},
+  HowPublished             = {http://github.com/cmusatyalab/openface},
+  Note                     = {Accessed: 2016-01-11},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2016.01.26}
+}
+
+@InProceedings{STROBEAnand2012,
+  Title                    = {STROBE: Actively Securing Wireless Communications using Zero-Forcing Beamforming},
+  Author                   = {Narendra Anand and Sung-Ju Lee and Edward W. Knightly},
+  Booktitle                = {INFOCOM Proceedings},
+  Year                     = {2012},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@Article{50yearsObjectAndeopoulos2013,
+  Title                    = {50 Years of object recognition: Directions forward.},
+  Author                   = {Andreopoulos, Alexander and Tsotsos, John K.},
+  Journal                  = {Computer Vision and Image Understanding},
+  Year                     = {2013},
+  Number                   = {8},
+  Pages                    = {827-891},
+  Volume                   = {117},
+
+  Added-at                 = {2013-06-10T00:00:00.000+0200},
+  Biburl                   = {http://www.bibsonomy.org/bibtex/2e550dd8b1c4fabc8cbb8cae9998e567c/dblp},
+  Ee                       = {http://dx.doi.org/10.1016/j.cviu.2013.04.005},
+  Interhash                = {15cc7305ddc90b0819e12c91a99be6fb},
+  Intrahash                = {e550dd8b1c4fabc8cbb8cae9998e567c},
+  Keywords                 = {dblp},
+  Owner                    = {egaebel},
+  Timestamp                = {2013-08-13T12:50:11.000+0200},
+  Url                      = {http://dblp.uni-trier.de/db/journals/cviu/cviu117.html#AndreopoulosT13}
+}
+
+@InProceedings{DiscrimGenClassNg2001,
+  Title                    = {On Discriminative vs. Generative Classifiers: A comparison of logistic regression and naive Bayes},
+  Author                   = {Andrew Y. Ng, Michael I. Jordan},
+  Booktitle                = {Advances in Neural Information Processing Systems (NIPS)},
+  Year                     = {2001},
+  Number                   = {14},
+
+  Owner                    = {egaebel},
+  Review                   = {Problem: When to use discriminative vs. generative classifiers?\\ \\ Solution: The authors show through analysis and experiment that generative classifiers approach their (higher) asymptotic error much faster than the discriminative classifiers reach thair (lower) error. As a result, the choice to use one or the other is dependent on the training set size; generative classifiers do better for smaller training sets.\\ \\ Why Did I Read It?: I found myself mixing up discriminative and generative classifiers in the course of my machine learning education. Several different searches kept turning this paper up on the definitive guide on the two, so I read it.\\ \\ Other Notes: My purpose in reading this paper was served, I now have a solid idea of the difference between the two.\\ \\},
+  Timestamp                = {2015.01.22}
+}
+
+@Article{GroupSignatureAteniese2000,
+  Title                    = {A Practical and Provably Secure Coalition-Resistant Group Signature Scheme},
+  Author                   = {Giuseppe Ateniese and Jan Camenisch, marc Joye, and Gene Tsudik},
+  Journal                  = {Lecture Notes in Computer Science},
+  Year                     = {2000},
+
+  Month                    = {August},
+  Number                   = {2000},
+  Pages                    = {255-270},
+  Volume                   = {1880},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@Article{LearningSecCogRadioBahrak2012,
+  Title                    = {Security of Spectrum Learning in Cognitive Radios},
+  Author                   = {Benham Bahrak and Jung-Min "Jerry" Park},
+  Journal                  = {SK Telecom Telecommunications Review},
+  Year                     = {2012},
+
+  Month                    = {December},
+  Number                   = {6},
+  Pages                    = {850-864},
+  Volume                   = {22},
+
+  Abstract                 = {Due to delay and energy constraints, a cognitive radio may not be able to perform spectrum sensing in all available channels. Therefore, a sensing policy is needed to decide which channels to sense. The channel selection problem is the problem of designing such a sensing policy to maximize throughput while avoiding interference to primary users. The channel selection problem can be formulated as a reinforcement learning problem. Channel selection schemes that employ reinforcement machine learning algorithms are vulnerable to belief manipulation attacks that contaminate the knowledge base of the learning algorithms. In this paper, we analyze the security of channel selection algorithms that are based on reinforcement learning and propose mitigation techniques that make these algorithms more robust against belief manipulation attacks.},
+  Owner                    = {egaebel},
+  Review                   = {Problem: Optimally attacking cognitive radios that use reinforcement learning in their cognitive engines via belief manipulation attacks.\\ \\ Solution: The authors devise many optimization problems for attackers to solve to identify optimal QoS degradation assuming the attacker can only jam one channel at a time. The authors show a modest decrease in service when applying their techniques to two reinforcement learning strategies: myopic policy and softmax policy, which are used in other papers referenced. Most of the mathematics involved in the optimization problems went right over my head, however it is my hope that during and certainly following this semester (Spring 2015) I will be able to fully understand all of the optimization problems posed as a result of my optimization laden coursework.\\ \\ Why Did I Read It?: This is the first paper I have found that addresses the topic in cognitive radio that has primarily piqued my interest: adversarial learning applied to cognitive engines.\\ \\ Other Notes: I predict that I will reference this paper quite a bit over the next year.\\ \\},
+  Timestamp                = {2015.01.15}
+}
+
+@InProceedings{CopingEnemyBarni2013,
+  Title                    = {Coping with the Enemy: Advances in Adversary-Aware Signal Processing},
+  Author                   = {Mauro Barni and Fernando Perez-Gonzalez},
+  Booktitle                = {IEEE International Conference on Acoustics, Speech, and Signal Processing},
+  Year                     = {2013},
+  Month                    = {May},
+  Publisher                = {IEEE},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@InProceedings{SecureMLBarreno2006,
+  Title                    = {Can machine learning be secure?},
+  Author                   = {Barreno, Marco and Nelson, Blaine and Sears, Russell and Joseph, Anthony D and Tygar, J Doug},
+  Booktitle                = {Proceedings of the 2006 ACM Symposium on Information, computer and communications security},
+  Year                     = {2006},
+  Organization             = {ACM},
+  Pages                    = {16--25},
+
+  Owner                    = {egaebel},
+  Review                   = {Problem: Determining whether there can exist a secure machine learning algorithm.\\ \\ Solution: The authors attempt to contribute to moving towards answering this question, they do no attempt to answer it fully. What they do provide is a taxonomy of terms to describe varying levels of attack on machine learning algorithms. The authors further discuss documented attacks on existing machine learning algorithms. At the end they provide a new result of interest. The authors derive a lower bound on the amount of effort, quantified in number of "points" an attacker must place into the observed set of the learner to achieve their goal. This means that we have a worst case scenario, from the learner's point of view. \\ \\ Why Did I Read It?: Since cognitive engines in cognitive radios have piqued my interest I'm examining the security of learning systems.},
+  Timestamp                = {2014.12.12}
+}
+
+@InProceedings{PUOpPrivBahrak2014,
+  Title                    = {Protecting the Primary Users' Operational Privacy in Spectrum Sharing},
+  Author                   = {Behnam Bahrak, Sudeep Bhattarai, Abid Ullah, Jung-Min ``Jerry'' Park, Jeffery Reed, and David Gurney},
+  Booktitle                = {2014 IEEE International Symposium on Dynamic Spectrum Access Networks},
+  Year                     = {2014},
+  Month                    = {April},
+  Pages                    = {236-247},
+  Publisher                = {IEEE},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@Article{FisherfacesBelhumeur1997,
+  Title                    = {Eigenfaces vs. Fisherfaces: Recognition Using Class Specific Linear Projection},
+  Author                   = {Belhumeur, Peter N. and Hespanha, Jo\~{a}o P. and Kriegman, David J.},
+  Journal                  = {IEEE Trans. Pattern Anal. Mach. Intell.},
+  Year                     = {1997},
+
+  Month                    = jul,
+  Number                   = {7},
+  Pages                    = {711--720},
+  Volume                   = {19},
+
+  Acmid                    = {261512},
+  Address                  = {Washington, DC, USA},
+  Doi                      = {10.1109/34.598228},
+  ISSN                     = {0162-8828},
+  Issue_date               = {July 1997},
+  Keywords                 = {Appearance-based vision, face recognition, illumination invariance, Fisher's linear discriminant.},
+  Numpages                 = {10},
+  Owner                    = {egaebel},
+  Publisher                = {IEEE Computer Society},
+  Timestamp                = {2016.01.23},
+  Url                      = {http://dx.doi.org/10.1109/34.598228}
+}
+
+@InProceedings{DecentBinarySensingBera2014,
+  Title                    = {Decentralized cooperative spectrum sensing in cognitive radio without fusion centre},
+  Author                   = {Bera, D. ; Maheshwari, S. ; Chakrabarti, I. ; Pathak, S.S.},
+  Booktitle                = {2014 Twentieth National Conference on Communications (NCC)},
+  Year                     = {2014},
+  Month                    = {February},
+  Pages                    = {1-5},
+
+  Abstract                 = {The cooperative spectrum sensing in cognitive radio networks (CRN) is generally modelled as a distributed binary hypothesis testing problem. Existing literatures mostly deal with cooperative spectrum sensing where a central unit called fusion centre (FC) collects decisions from all secondary users (SUs) and takes the final decision. In this paper, we address the cooperative spectrum sensing scheme without the presence of FC. However, SUs can share their information with each other to make the decision process more reliable. Moreover, modelling of the system in presence of fading is an important issue. The decentralized cooperative spectrum sensing (DCSS) scheme is represented as probabilistic graphical model using factor graph and sum-product algorithm. The new DCSS scheme is proposed by employing likelihood ratio test (LRT) based decision fusion rule. It leads to Neyman-Pearson (N-P) criteria based optimal sensing. Convergence of global decision is also validated using both geographic and broadcast based gossip algorithm for communicating among SUs. Exhaustive simulation results are provided to validate the concept.},
+  Owner                    = {egaebel},
+  Review                   = {Proposes a system based on this "Randomized Gossip Algorithm". It seems that this involves randomly selecting a node in a network to sense the spectrum availability and then that node broadcasts its information and all surrounding users update the probability of primary user prescence based on this information. This paper is not very well written.},
+  Timestamp                = {2015.04.13}
+}
+
+@InBook{FastEllipticCurveDiffieHellmanBernstein2006,
+  Title                    = {Public Key Cryptography - PKC 2006: 9th International Conference on Theory and Practice in Public-Key Cryptography, New York, NY, USA, April 24-26, 2006. Proceedings},
+  Author                   = {Bernstein, Daniel J.},
+  Chapter                  = {Curve25519: New Diffie-Hellman Speed Records},
+  Editor                   = {Yung, Moti and Dodis, Yevgeniy and Kiayias, Aggelos and Malkin, Tal},
+  Pages                    = {207--228},
+  Publisher                = {Springer Berlin Heidelberg},
+  Year                     = {2006},
+
+  Address                  = {Berlin, Heidelberg},
+
+  Doi                      = {10.1007/11745853_14},
+  ISBN                     = {978-3-540-33852-9},
+  Timestamp                = {2016.04.23},
+  Url                      = {http://dx.doi.org/10.1007/11745853_14}
+}
+
+@Article{PhyLayerSecSurvHe2013,
+  Title                    = {Wireless Physical Layer Security with Imperfect Channel State Information: A Survey},
+  Author                   = {Biao He, Xiangyun Zhou, Thushara D. Abhayapala},
+  Journal                  = {Arxiv},
+  Year                     = {2013},
+
+  Abstract                 = {Physical layer security is an emerging technique to improve the wireless communication security, which is widely regarded as a complement to cryptographic technologies. To design physical layer security techniques under practical scenarios, the uncertainty and imperfections in the channel knowledge need to be taken into consideration. This paper provides a survey of recent research and development in physical layer security considering the imperfect channel state information (CSI) at communication nodes. We first present an overview of the main information-theoretic measures of the secrecy performance with imperfect CSI. Then, we describe several signal processing enhancements in secure transmission designs, such as secure on-off transmission, beamforming with artificial noise, and secure communication assisted by relay nodes or in cognitive radio systems. The recent studies of physical layer security in large-scale decentralized wireless networks are also summarized. Finally, the open problems for the on-going and future research are discussed.},
+  Owner                    = {egaebel},
+  Review                   = {A survey on physical layer security techniques. Includes an interesting discussion of estimating channel state information (CSI) at receiver and eavesdropper as well as using the CSI in determining thresholds for security.},
+  Timestamp                = {2015.04.01}
+}
+
+@Article{RealitiesLe2007,
+  Title                    = {Cognitive Radio Realities},
+  Author                   = {Bin Le, and Thomas W. Rondeau, and Charles W. Bostian},
+  Journal                  = {Wireless Communications and Mobile Computing},
+  Year                     = {2007},
+
+  Month                    = {May},
+  Number                   = {9},
+  Pages                    = {1037-1048},
+  Volume                   = {7},
+
+  Abstract                 = {A cognitive radio (CR) is a transceiver that is aware, adaptive, and capable of learning. It may be visualized and realized as an intelligent software package (cognitive engine) controlling a software defined radio platform. The cognitive engine executes a set of nested loops constituting a cognition cycle, drawing on experience and stored knowledge to optimize a set of user-chosen quality of service measures. The process relies on the effectiveness of a set of tools that are individually well known but rarely found together: multi-objective genetic algorithms, case-based decision theory, and neural networks. Practical implementation problems include passing environmental information from the radio to the cognitive engine, acting on that information, and performing real-time control of the radio platform by the cognitive engine. In this paper, we discuss our approach to developing and implementing a CR.},
+  Owner                    = {egaebel},
+  Review                   = {Problem: Developing a cognitive engine for a cognitive radio which the authors define as being "a transceiver that is aware, adaptive, and capable of learning from experience. (this paper seems to be a survey paper that is more targetted than usual) Solution: The authors describe a high level architecture for a cognitive radio. They then go further by discussing specific implementation features for a cognitive engine in a cognitive radio such as using evolutionary techniques (genetic algorithms specifically) in the engine. The authors then discuss the problem that will arise of identifying particular signals when their channel parameters are unknown before communication time. They discuss applying artificial neural networks to his problem. The authors close by claiming that cognitive engines will continue to rise up the network stack. Why Did I Read It?: I want to read earlier works in cognitive radio to get a better clue of the progression of the field. I think this will be useful to both give me ideas and to eliminate ideas that have already been eliminated. Other Notes: I found this paper very rewarding. It was well written. It provided several cognitive radio conference names that I had not previously known about. It mentions a concrete implementation of a cognitive radio system that runs using GNU Radio which we have available to us! The cognitive radio implementation uses genetic algorithms in its cognitive engine. I intend to find this engine, download it, examine it, and see if it is possible to maliciously influence the cognitive engine into misbehaving.},
+  Timestamp                = {2014.12.17}
+}
+
+@Book{PatternRecogAndMLBishop2006,
+  Title                    = {Pattern Recognition and Machine Learning},
+  Author                   = {C. Bishop},
+  Publisher                = {Springer},
+  Year                     = {2006},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.05.15}
+}
+
+@Article{PhyIdSurveyDanev2012,
+  Title                    = {On Physical-Layer Identification of Wireless Devices},
+  Author                   = {Boris Danev, Davide Zanetti, and Srdjan Capkun},
+  Journal                  = {ACM Computing Surveys},
+  Year                     = {2012},
+
+  Month                    = {November},
+  Number                   = {1},
+  Volume                   = {45},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.05.12}
+}
+
+@InCollection{SGDBottou2012,
+  Title                    = {Stochastic Gradient Tricks},
+  Author                   = {Bottou, L\'{e}on},
+  Booktitle                = {Neural Networks, Tricks of the Trade, Reloaded},
+  Publisher                = {Springer},
+  Year                     = {2012},
+  Editor                   = {Montavon, Gr\'{e}goire and Orr, Genevieve B. and M\"{u}ller, Klaus-Robert},
+  Pages                    = {430--445},
+  Series                   = {Lecture Notes in Computer Science (LNCS 7700)},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.10.18},
+  Url                      = {http://leon.bottou.org/papers/bottou-tricks-2012}
+}
+
+@Article{OpenCV,
+  Title                    = {OpenCV},
+  Author                   = {Bradski, G.},
+  Journal                  = {Dr. Dobb's Journal of Software Tools},
+  Year                     = {2000},
+
+  Citeulike-article-id     = {2236121},
+  Keywords                 = {bibtex-import},
+  Owner                    = {egaebel},
+  Posted-at                = {2008-01-15 19:21:54},
+  Priority                 = {4},
+  Timestamp                = {2016.03.18}
+}
+
+@Article{SvmTutorialBurges1998,
+  Title                    = {A Tutorial on Support Vector Machines for Pattern Recognition},
+  Author                   = {Burges, Christopher J.C.},
+  Journal                  = {Data Mining and Knowledge Discovery},
+  Year                     = {1998},
+  Number                   = {2},
+  Pages                    = {121--167},
+  Volume                   = {2},
+
+  Abstract                 = {The tutorial starts with an overview of the concepts of VC dimension and structural risk minimization. We then describe linear Support Vector Machines (SVMs) for separable and non-separable data, working through a non-trivial example in detail. We describe a mechanical analogy, and discuss when SVM solutions are unique and when they are global. We describe how support vector training can be practically implemented, and discuss in detail the kernel mapping technique which is used to construct SVM solutions which are nonlinear in the data. We show how Support Vector machines can have very large (even infinite) VC dimension by computing the VC dimension for homogeneous polynomial and Gaussian radial basis function kernels. While very high VC dimension would normally bode ill for generalization performance, and while at present there exists no theory which shows that good generalization performance is guaranteed for SVMs, there are several arguments which support the observed high accuracy of SVMs, which we review. Results of some experiments which were inspired by these arguments are also presented. We give numerous examples and proofs of most of the key theorems. There is new material, and I hope that the reader will find that even old material is cast in a fresh light.},
+  Doi                      = {10.1023/A:1009715923555},
+  ISSN                     = {1573-756X},
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.23},
+  Url                      = {http://dx.doi.org/10.1023/A:1009715923555}
+}
+
+@Article{AppMLCogRadClancy2007,
+  Title                    = {Applications of Machine Learning to Cognitive Radio Networks},
+  Author                   = {C. Clancy, J. Hecker, E. Stuntebeck, and T. O'Shea},
+  Journal                  = {IEEE Wireless Communications},
+  Year                     = {2007},
+
+  Month                    = {August},
+  Number                   = {4},
+  Pages                    = {47-52},
+  Volume                   = {14},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.05.16}
+}
+
+@Article{KeyAgreementP2pCagalj2006,
+  Title                    = {Key Agreement in Peer-to-Peer Wireless Networks},
+  Author                   = {M. Cagalj and S. Capkun and J. P. Hubaux},
+  Journal                  = {Proceedings of the IEEE},
+  Year                     = {2006},
+
+  Month                    = {Feb},
+  Number                   = {2},
+  Pages                    = {467-478},
+  Volume                   = {94},
+
+  Doi                      = {10.1109/JPROC.2005.862475},
+  ISSN                     = {0018-9219},
+  Keywords                 = {message authentication;peer-to-peer computing;protocols;public key cryptography;radio links;Diffie-Hellman protocol;authenticated information;key agreement protocols;key establishment;man-in-the-middle attack;message authenticators;peer-to-peer network;wireless networks;Data security;Intelligent networks;Laboratories;Mobile communication;Peer to peer computing;Public key;Radio link;Robustness;Wireless application protocol;Wireless networks;Diffie?Hellman (DH) protocol;key agreement protocols;man-in-the-middle (MITM) attacks;message authenticators;security;wireless networks},
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.13}
+}
+
+@Article{Intro802.22QualcommCordeiro2006,
+  Title                    = {IEEE 802.22: An Introduction to the First Wireless Standard based on Cognitive Radios},
+  Author                   = {Carlos Cordeiro, Kran Challapali, and Dagnachew Birru},
+  Journal                  = {IEEE Journal of Communications},
+  Year                     = {2006},
+
+  Month                    = {April},
+  Number                   = {1},
+  Pages                    = {38-47},
+  Volume                   = {1},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.05.15}
+}
+
+@Misc{FormalAuthAnalysisBluetoothChang2007,
+  Title                    = {Formal Analysis of Authentication in Bluetooth Device Pairing},
+
+  Author                   = {Richard Chang and Vitaly Shmatikov},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2016.03.29}
+}
+
+@Article{SPIILDu2014,
+  Title                    = {SPIIL: Single Platform Indoor Interference Localization},
+  Author                   = {Changlai Du, Wenjing Lou, Y. Thomas Hou},
+  Journal                  = {STILL A DRAFT},
+  Year                     = {2014},
+
+  Abstract                 = {This paper presents SPIIL....},
+  File                     = {draft as of 12/17/2014:/home/egaebel/grad-docs/research/localization-problem/bare_conf.pdf:PDF},
+  Owner                    = {egaebel},
+  Review                   = {Very well written. Contains many grammatical errors and spelling errors. The overall structure of all the sentences is very good, ideas are presented and developed in an easy to follow manner.},
+  Timestamp                = {2014.12.17}
+}
+
+@InProceedings{EnsureTrustSpectrumSensingChen2006,
+  Title                    = {Ensuring Trustworthy Spectrum Sensing in Cognitive Radio Networks},
+  Author                   = {Ruiliang Chen and Jung-Min Park},
+  Booktitle                = {1st IEEE Workshop on Networking Technologies for Software Defined Radio Networks},
+  Year                     = {2006},
+  Month                    = {September},
+  Pages                    = {110-119},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.05.14}
+}
+
+@TechReport{DistrSpecSenseChen2006,
+  Title                    = {Robust Distributed Spectrum Sensing in Cognitive Radio Networks},
+  Author                   = {Ruiliang Chen and Jung-Min Park and Kaigui Bian},
+  Institution              = {TR-ECE-06-07, Department of Electrical and Computer Engineering, Virginia Tech},
+  Year                     = {2006},
+  Month                    = {July},
+  Type                     = {Technical Report},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@Book{DistribSenseChen2008,
+  Title                    = {Toward Secure Distributed Spectrum Sensing in Cognitive Radio Networks},
+  Author                   = {Ruiliang Chen and Jung-Min Park and Y. Thomas Hou and Jeffrey H. Reed},
+  Publisher                = {IEEE Communications Magazine},
+  Year                     = {2008},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@Article{PUEChen2008,
+  Title                    = {Defense Against Primary User Emulation Attacks in Cognitive Radio Networks},
+  Author                   = {Ruiliang Chen and Jung-Min Park and Jeffrey H. Reed},
+  Journal                  = {IEEE JOURNAL ON SELECTED AREAS IN COMMUNICATIONS, VOL.},
+  Year                     = {2008},
+
+  Month                    = {January},
+  Number                   = {1},
+  Volume                   = {26},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@Article{CogRadSecClancy2008,
+  Title                    = {Security in Cognitive Radio Networks: Threats and Mitigation},
+  Author                   = {T. Charles Clancy and Nathan Goergen},
+  Journal                  = {Cognitive Radio Oriented Wireless Networks and Communications},
+  Year                     = {2008},
+  Volume                   = {2008},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@InProceedings{TorchCollobert2011,
+  Title                    = {Torch7: A Matlab-like Environment for Machine Learning},
+  Author                   = {Collobert, Ronan and Kavukcuoglu, Koray and Farabet, Cl{\'{e}}ment},
+  Booktitle                = {BigLearn, NIPS Workshop},
+  Year                     = {2011},
+
+  File                     = {Collobert_NIPSWORKSHOP_2011.pdf:http\://publications.idiap.ch/downloads/papers/2011/Collobert_NIPSWORKSHOP_2011.pdf:PDF},
+  Owner                    = {egaebel},
+  Projects                 = {Idiap},
+  Timestamp                = {2015.10.18}
+}
+
+@Article{SpecShareFCC2003,
+  Title                    = {Facilitating opportunities for flexible, efficient, and reliable spectrum use employing spectrum agile radio technologies},
+  Author                   = {Federal Communications Commision},
+  Journal                  = {ET Docket, (0},
+  Year                     = {2003},
+
+  Month                    = {December},
+  Pages                    = {3-108},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@InProceedings{AdversarialClassificationDalvi2004,
+  Title                    = {Adversarial Classification},
+  Author                   = {Nilesh Dalvi and Pedro Domingos and Mausam, Sumit Sanghai and Deepak Verma},
+  Booktitle                = {Conference on Knowledge Discovery and Data Mining (KDD)},
+  Year                     = {2004},
+  Month                    = {August},
+  Publisher                = {ACM},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@InProceedings{TransientIdDanev2009,
+  Title                    = {Transient-Based Identification of Wireless Sensor Nodes},
+  Author                   = {Boris Danev and Srdjan Capkun},
+  Booktitle                = {International Conference on Information Processing in Sensor Networks (IPSN)},
+  Year                     = {2009},
+  Month                    = {April},
+  Pages                    = {25-36},
+  Publisher                = {IEEE},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.04.24}
+}
+
+@InProceedings{AttackPhyIDDanev2010,
+  Title                    = {Attacks on Physical-layer Identification},
+  Author                   = {Boris Danev and Heinrich Luecken and Srdjan Capkun and Karim El Defrawy},
+  Booktitle                = {WiSec},
+  Year                     = {2010},
+  Month                    = {March},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@Article{DiffieHellman2006,
+  Title                    = {New Directions in Cryptography},
+  Author                   = {Diffie, W. and Hellman, M.},
+  Journal                  = {IEEE Trans. Inf. Theor.},
+  Year                     = {2006},
+
+  Month                    = sep,
+  Number                   = {6},
+  Pages                    = {644--654},
+  Volume                   = {22},
+
+  Acmid                    = {2269104},
+  Address                  = {Piscataway, NJ, USA},
+  Doi                      = {10.1109/TIT.1976.1055638},
+  ISSN                     = {0018-9448},
+  Issue_date               = {November 1976},
+  Numpages                 = {11},
+  Owner                    = {egaebel},
+  Publisher                = {IEEE Press},
+  Timestamp                = {2016.04.23},
+  Url                      = {http://dx.doi.org/10.1109/TIT.1976.1055638}
+}
+
+@Article{DecentralisedFusionWhyte2006,
+  Title                    = {Data Fusion in Decentralised Sensing Networks},
+  Author                   = {High Durrant-Whyte and Mike Stevens},
+  Journal                  = {Proceeding on Information Fusion},
+  Year                     = {2006},
+  Pages                    = {302-307},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.05.18}
+}
+
+@TechReport{FCCSmallEntityComply2012,
+  Title                    = {Small Entity Compliance Guide Part 15 TV Bands Devices},
+  Author                   = {FCC},
+  Institution              = {FCC},
+  Year                     = {2012},
+  Month                    = {April},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.05.15}
+}
+
+@TechReport{FCCUnlicensed5GHz2003,
+  Title                    = {Revision of Parts 2 and 15 of the Commissions Rules to Permit Unlicensed National Information Infrastructure (U-NII) devices in the 5 GHz band},
+  Author                   = {FCC},
+  Institution              = {FCC},
+  Year                     = {2003},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.05.15}
+}
+
+@Unpublished{DevFingerprintHMMChen2011,
+  Title                    = {On Passive Wireless Device Fingerprinting using Infinite Hidden Markov Random Field},
+  Author                   = {Feng Chen, Qiben Yan, Chowdhury Shahriar, Chang-Tien Lu, Wenjing Lou, and T. Charles Clancy},
+  Note                     = {http://www.contrib.andrew.cmu.edu/~fchen1/device-fingerprinting-detection.pdf},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.05.15},
+  Url                      = {http://www.contrib.andrew.cmu.edu/~fchen1/device-fingerprinting-detection.pdf}
+}
+
+@InProceedings{CogRadGeneticImplGe2008,
+  Title                    = {Cognitive Radio: From Spectrum Sharing to Adaptive Learning and Reconfiguration},
+  Author                   = {Feng Ge ; Qinqin Chen ; Ying Wang ; Bostian, C.W. ; Rondeau, T.W. ; Bin Le},
+  Booktitle                = {IEEE Aerospace Conference},
+  Year                     = {2008},
+  Month                    = {March},
+  Pages                    = {1-10},
+  Publisher                = {IEEE},
+
+  Abstract                 = {This paper introduces important cognitive radio developments like spectrum sharing, learning and adaptation algorithms, and the software and hardware architecture to support these functions. A cognitive radio is defined here as a transceiver that is aware of its environment and can combine this awareness with knowledge of its user's priorities, needs, operational procedures, and governing regulatory rules. It adapts to its environment and configures itself in an appropriate fashion. The radio learns through experience and is capable of generating solutions for communications problems unforeseen by its designers. Our spectrum sharing cognitive radio is built upon GNU radio and uses the universal software radio peripheral (USRP) device as our radio front end platform. We use cyclostationary feature analysis to detect low SNR modulated signals because of its ability to distinguish between modulated signals, interference, and noise in low signal to noise ratios. A parallel algorithm running on a cell broadband engine (Cell BE) is used to attack the associated high computational complexity. A new spectrum sensing scheme, incorporating spectrum monitoring, data transmission, and dynamic channel switching, is designed to fully utilize the idle time of the primary user. Our work is based on the concept of a cognitive engine: an intelligent software package that "reads the meters" and "turns the knobs" of any attached software defined radio (SDR) platform. Using an eclectic combination of artificial intelligence techniques including case-based decision theory, multi-objective genetic algorithms, and neural networks, it implements a system of nested cognition loops. Applied to public safety communications, this technology is the basis of a working prototype Public Safety Cognitive Radio that can scan the public safety spectrum (multiple bands and multiple waveforms, all incompatible) and configure itself to interoperate with any public safety waveform that it finds within 0.- 1 seconds of determining that a signal is present.},
+  Owner                    = {egaebel},
+  Review                   = {Problem: Building a spectrum sharing cognitive radio using USRP and GNU Radio.\\ \\ Solution: The authors present a software architecture of a cognitive radio built on USRP and GNU Radio which they describe heavily using block diagrams, flow charts, and some introduction of mathematical techniques used for spectrum sensing and determining whether the primary user is occupying a channel. The main contribution the authors put forward is their use of a "wireless system genetic algorithm (WSGA)" in developing a cognitive engine capable of developing optimal operating procedures for myriad situations. The definition of the WSGA is limited to abstract objective function models, no specific objective functions are given. The authors also claim to have obtained good performance with their WSGA cognitive engine in both simulation and experiments, but no numerical results are provided.\\ \\ Why Did I Read It?: For two reasons, first I am investigating early cognitive radio literature and this certainly fits that description, and secondly I am interested in discovering existing cognitive radio implementations.\\ \\ Other Notes: It seems that I should contact the authors of this paper to see where I can obtain their cognitive radio source code for further study.\\ \\},
+  Timestamp                = {2015.01.15}
+}
+
+@Article{LDAFisher1936,
+  Title                    = {THE USE OF MULTIPLE MEASUREMENTS IN TAXONOMIC PROBLEMS},
+  Author                   = {FISHER, R. A.},
+  Journal                  = {Annals of Eugenics},
+  Year                     = {1936},
+  Number                   = {2},
+  Pages                    = {179--188},
+  Volume                   = {7},
+
+  Doi                      = {10.1111/j.1469-1809.1936.tb02137.x},
+  ISSN                     = {2050-1439},
+  Owner                    = {egaebel},
+  Publisher                = {Blackwell Publishing Ltd},
+  Timestamp                = {2016.04.12},
+  Url                      = {http://dx.doi.org/10.1111/j.1469-1809.1936.tb02137.x}
+}
+
+@TechReport{FCCSpectrumEfficiency2002,
+  Title                    = {Report of the Spectrum Efficiency Working Group},
+  Author                   = {FCC Spectrum Policy Task Force},
+  Institution              = {FCC},
+  Year                     = {2002},
+  Month                    = {November},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.04.22}
+}
+
+@InProceedings{PlayfulPairingGallego2011,
+  Title                    = {Playful security: A computer game for secure wireless device pairing},
+  Author                   = {A. Gallego and N. Saxena and J. Voris},
+  Booktitle                = {Computer Games (CGAMES), 2011 16th International Conference on},
+  Year                     = {2011},
+  Month                    = {July},
+  Pages                    = {177-184},
+
+  Doi                      = {10.1109/CGAMES.2011.6000336},
+  Keywords                 = {computer games;radiocommunication;telecommunication security;wireless channels;computer game;human errors;man-in-the-middle attack;memory game;optimal solutions;out-of-band communication;pairing process;pairing system;playful security;wireless device pairing security;Color;Communication system security;Computers;Games;Security;Usability;Wireless communication;Device Pairing;Entertainment;Games;Mobility;Security;Ubiquitous Computing;Usability},
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.12}
+}
+
+@InProceedings{BayesBandScanGarnaev2014,
+  Title                    = {Bandwidth scanning involving a Bayesian approach to adapting the belief of an adversary's presence},
+  Author                   = {Andrey Garnaev and Wade Trappe},
+  Booktitle                = {2014 IEEE Conference on Communications and Network Security (CNS)},
+  Year                     = {2014},
+  Month                    = {October},
+  Pages                    = {35-43},
+  Publisher                = {IEEE},
+
+  Abstract                 = {Scanning large amounts of bandwidth for anomalous signals is a fundamental tool to building secure spectrum sharing system. When designing a bandwidth scanning algorithm, the system engineer faces several problems: which band to scan, how long to scan the band, and how to detect whether a malicious adversary is present. It is often not possible to conclusively detect an adversary's presence during a single scan, and therefore the anomaly detection procedure needs to run continuously. For a spectrum scanning system that runs continuously, it is possible to tune the algorithm to better detect the presence of a malicious threat by adapting one's belief as to whether the adversary is present, particularly if the previous scanning attempt failed to detect an adversary in the previous time slot. In this paper, by means of a game theoretical model, we demonstrate some approaches to solve these scanning problems. The equilibrium strategies in the suggested models are obtained explicitly, and thereby allows for interesting properties associated with the problems and related scanning algorithms to be established.},
+  Owner                    = {egaebel},
+  Review                   = {Problem: Finding an adversary by scanning channels.\\ \\ Solution: The authors devise a game theoretical model to analyze the scenarios for both attacker and defender (scanner). For the scanner the game is one of resource allocation, which channel to scan in each timeslot, and for the attacker it is a game involving choosing a "pure strategy", which the authors note is best served by randomization. The authors then derives equilibrium strategies for both attacker and defender. The authors simulate their games and then devise an additional strategy for the defender to learn from experience which they give in formula form, followed by further evaluation.\\ \\},
+  Timestamp                = {2015.01.23}
+}
+
+@Article{ManaGehrmann2004,
+  Title                    = {Manual authentication for wireless devices},
+  Author                   = {Christian Gehrmann and Kaisa Nyberg},
+  Journal                  = {RSA Cryptobytes},
+  Year                     = {2004},
+  Pages                    = {2004},
+  Volume                   = {7},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.23}
+}
+
+@InProceedings{PhaserGjengset2014,
+  Title                    = {Phaser: Enabling Phased Array Signal Processing on Commodity WiFi Access Points},
+  Author                   = {Gjengset, Jon and Xiong, Jie and McPhillips, Graeme and Jamieson, Kyle},
+  Booktitle                = {Proceedings of the 20th Annual International Conference on Mobile Computing and Networking},
+  Year                     = {2014},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {153--164},
+  Publisher                = {ACM},
+  Series                   = {MobiCom '14},
+
+  Acmid                    = {2639139},
+  Doi                      = {10.1145/2639108.2639139},
+  ISBN                     = {978-1-4503-2783-1},
+  Keywords                 = {angle-of-arrival, location tracking, nics synchronization, phase calibration, phased-array, signal processing},
+  Location                 = {Maui, Hawaii, USA},
+  Numpages                 = {12},
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.12},
+  Url                      = {http://doi.acm.org/10.1145/2639108.2639139}
+}
+
+@InProceedings{DeepRectifierGlorot2011,
+  Title                    = {Deep Sparse Rectifier Neural Networks},
+  Author                   = {Xavier Glorot and Antoine Bordes and Yoshua Bengio},
+  Booktitle                = {Proceedings of the Fourteenth International Conference on Artificial Intelligence and Statistics (AISTATS-11)},
+  Year                     = {2011},
+  Editor                   = {Geoffrey J. Gordon and David B. Dunson},
+  Pages                    = {315-323},
+  Publisher                = {Journal of Machine Learning Research - Workshop and Conference Proceedings},
+  Volume                   = {15},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.10.19},
+  Url                      = {http://www.jmlr.org/proceedings/papers/v15/glorot11a/glorot11a.pdf}
+}
+
+@InProceedings{CryptoWaterGoergen2010,
+  Title                    = {Physical Layer Authentication Watermarks through Synethetic Channel Emulation},
+  Author                   = {Goergen, N., Clancy, T.C., Newman, T.R.},
+  Booktitle                = {IEEE Symposium on New Frontiers in Dynamic Spectrum},
+  Year                     = {2010},
+  Month                    = {April},
+
+  Abstract                 = {We present an authentication device allowing for the validation of wireless transmissions by means of a watermark signal applied at the physical layer, and demonstrate how the method may be applied to digital broadcast television signals. The novel watermarking approach presented conveys the authentication signal through explicit emulation of innocuous channel responses, further preventing Primary User Emulation attacks in Dynamic Spectrum Access theaters. The undesirable effects of the watermark signal design are removed by the receiver by traditional channel equalization practices, resulting in nearly zero impact to the bit error rate (BER) of the primary signal received. The proposed mechanism may be implemented without modification to existing Digital Television (DTV) transmission equipment using a retrofitting approach, and does not require the modification of existing receivers or protocols. A key benefit of the proposed method is that the authentication signal may be received at a BER much lower than the primary-signal, all within original transmission power and bandwidth constraints. We discuss physical layer details of the new watermarking method, and demonstrate how proven cryptographic authentication measures may be applied to the problem.},
+  Owner                    = {egaebel},
+  Review                   = {Problem: Authenticating wireless signals.\\ \\ Solution: The authors present a technique for watermarking whereby they introduce a small amount of inter-symbol interference into a signal such that the distortions will likely be filtered out by the receiver's equalizer before the primary signal is decoded. This allows for nearly zero increase in the bit error rate (BER). The authors then describe using this scheme to embed cryptographic data of the form watermark = {TS, F, L, T, C, Sign_C(hash(TS, F, L, T))}, where TS is a timestampt, F is the signal's transmitting frequency, L is the location of the transmitter, T is the time where the transmitter is permitted to transmit, C is a public key infrastructure certificate, and Sign_C is the digital signature function using C.\\ \\ Why Did I Read It?: To gain more insight into solving the problem of primary user emulation in dynamic spectrum access scenarios.\\ \\ Other Notes: This is the second paper I've read concerning cryptographic watermarking, it seems to me that this will likely become the standard in the future. It's hard to imagine a better scheme. However, I have yet to see any experiments validating cryptographic watermarking, only simulations. It will be interesting to see if the performance claimed stands up to real world conditions.\\ \\},
+  Timestamp                = {2015.01.16}
+}
+
+@InProceedings{InBandPairingGollaktoa2011,
+  Title                    = {Secure In-band Wireless Pairing},
+  Author                   = {Gollakota, Shyamnath and Ahmed, Nabeel and Zeldovich, Nickolai and Katabi, Dina},
+  Booktitle                = {Proceedings of the 20th USENIX Conference on Security},
+  Year                     = {2011},
+
+  Address                  = {Berkeley, CA, USA},
+  Pages                    = {16--16},
+  Publisher                = {USENIX Association},
+  Series                   = {SEC'11},
+
+  Acmid                    = {2028083},
+  Location                 = {San Francisco, CA},
+  Numpages                 = {1},
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.12},
+  Url                      = {http://dl.acm.org/citation.cfm?id=2028067.2028083}
+}
+
+@Unpublished{DeepLearningGoodfellow2015,
+  Title                    = {Deep Learning},
+  Author                   = {Ian Goodfellow and Aaron Courville and Yoshua Bengio},
+  Note                     = {Book in preparation for MIT Press},
+  Year                     = {2015},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.12.14},
+  Url                      = {http://goodfeli.github.io/dlbook/}
+}
+
+@Electronic{GoogleSpectrumDatabase,
+  Title                    = {Google Spectrum Database},
+  Author                   = {Google},
+  Organization             = {Google},
+  Url                      = {https://www.google.com/get/spectrumdatabase/},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.05.15}
+}
+
+@TechReport{BluetoothInterfaceFlowSecureSimplePairing2007,
+  Title                    = {Bluetooth User Interface Flow Diagrams for Bluetooth Secure Simple Pairing Devices},
+  Author                   = {Usability Expert Group},
+  Institution              = {Bluetooth},
+  Year                     = {2007},
+  Month                    = {September},
+  Number                   = {v1.0},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.23}
+}
+
+@InProceedings{ChannelAuthLearningGulati2013,
+  Title                    = {GMM based Semi-Supervised Learning for Channel-based Authentication Scheme},
+  Author                   = {Nikhil Gulati and Rachel Greenstadt and Kapil R. Dandekar and John M. Walsh},
+  Booktitle                = {IEEE 78th Vehicular Technology Conference},
+  Year                     = {2013},
+  Month                    = {September},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@InProceedings{LeakyAntennaGuo,
+  Title                    = {Reconfigurable Leaky Wave Antennas},
+  Author                   = {Guo, Y. Jay, et al.},
+  Booktitle                = {Forum for Electromagnetic Research Methods and Application Technologies (FERMAT)},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.04.23}
+}
+
+@InProceedings{GeoLocDBGurney2008,
+  Title                    = {Geo-Location Database Techniques for Incumbent Protection in the TV White Space},
+  Author                   = {Gurney, D.; Buchwald, G. ; Ecklund, L. ; Kuffner, S.L. ; Grosspietsch, J.},
+  Booktitle                = {3rd IEEE Symposium on New Frontiers in Dynamic Spectrum Access Networks (DySPAN)},
+  Year                     = {2008},
+  Month                    = {October},
+  Pages                    = {1-9},
+
+  Abstract                 = {The opening of the television bands in the United States presents an exciting opportunity for secondary spectrum utilization. Protecting licensed broadcast television viewers from harmful interference due to secondary spectrum usage is critical to the successful deployment of TV white space devices. A wide variety of secondary system operating scenarios must be considered in any potential interference analysis, as described below. Several different types of licensed television transmitters currently exist in the TV bands, along with secondary licensed services, such as wireless microphones. All licensed services must be adequately protected from harmful interference, which can readily and reliably be achieved with the described geo-location database methods. Specific implementation details of geo-location databases are discussed, including several complexity reduction techniques. Geo-location database techniques are also shown to more efficiently utilize available spectrum than other spectrum access techniques.},
+  Owner                    = {egaebel},
+  Review                   = {Problem: Providing dynamic spectrum access via a geo-location database.\\ \\ Solution: The authors begin by giving a lengthy description on all of the regulatory protections for incumbent users that must be met. They then describe their model, a two ray propagation model that is very computationally simple. Compared with the "SenseLess" paper I just read this approach is very rudimentary. The authors do not take geographic features into account (like mountains). The authors finish by giving an example of the cost of implementation (computational).\\ \\ Why Did I Read It?: To gain further insight into database approaches to dynamic spectrum access.\\ \\},
+  Timestamp                = {2015.01.29}
+}
+
+@InProceedings{BluetoothSSPAttackJustWorksHaataja2008,
+  Title                    = {Practical Man-in-the-Middle Attacks Against Bluetooth Secure Simple Pairing},
+  Author                   = {K. Haataja and P. Toivanen},
+  Booktitle                = {2008 4th International Conference on Wireless Communications, Networking and Mobile Computing},
+  Year                     = {2008},
+  Month                    = {Oct},
+  Pages                    = {1-5},
+
+  Doi                      = {10.1109/WiCom.2008.1153},
+  ISSN                     = {2161-9646},
+  Keywords                 = {Bluetooth;security of data;Bluetooth secure simple pairing;man-in-the-middle attacks;Bluetooth;Computer science;Directional antennas;Jamming;Microprogramming;Mobile handsets;Personal area networks;Radio frequency;Security;Wireless communication},
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.19}
+}
+
+@Article{ChannelStateInformationToolReleaseHalperin2011,
+  Title                    = {Tool Release: Gathering 802.11N Traces with Channel State Information},
+  Author                   = {Halperin, Daniel and Hu, Wenjun and Sheth, Anmol and Wetherall, David},
+  Journal                  = {SIGCOMM Comput. Commun. Rev.},
+  Year                     = {2011},
+
+  Month                    = jan,
+  Number                   = {1},
+  Pages                    = {53--53},
+  Volume                   = {41},
+
+  Acmid                    = {1925870},
+  Address                  = {New York, NY, USA},
+  Doi                      = {10.1145/1925861.1925870},
+  ISSN                     = {0146-4833},
+  Issue_date               = {January 2011},
+  Keywords                 = {802.11n, channel state information, csi, mimo},
+  Numpages                 = {1},
+  Publisher                = {ACM},
+  Timestamp                = {2016.04.20},
+  Url                      = {http://doi.acm.org/10.1145/1925861.1925870}
+}
+
+@Article{80211MultipleAntennasDummiesHalperin2010,
+  Title                    = {802.11 with Multiple Antennas for Dummies},
+  Author                   = {Halperin, Daniel and Hu, Wenjun and Sheth, Anmol and Wetherall, David},
+  Journal                  = {SIGCOMM Comput. Commun. Rev.},
+  Year                     = {2010},
+
+  Month                    = jan,
+  Number                   = {1},
+  Pages                    = {19--25},
+  Volume                   = {40},
+
+  Acmid                    = {1672313},
+  Address                  = {New York, NY, USA},
+  Doi                      = {10.1145/1672308.1672313},
+  ISSN                     = {0146-4833},
+  Issue_date               = {January 2010},
+  Keywords                 = {802.11n, mimo, multiple antennas},
+  Numpages                 = {7},
+  Owner                    = {egaebel},
+  Publisher                = {ACM},
+  Timestamp                = {2016.04.12},
+  Url                      = {http://doi.acm.org/10.1145/1672308.1672313}
+}
+
+@Article{CogRadHaykin2005,
+  Title                    = {Cognitive Radio: Brain-Empowered Wireless Communications},
+  Author                   = {Simon Haykin},
+  Journal                  = {IEEE Journal on Selected Areas in Communications},
+  Year                     = {2005},
+
+  Month                    = {February},
+  Number                   = {2},
+  Volume                   = {23},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@InProceedings{SpecShareHiller2014,
+  Title                    = {Spectrum Sharing and Privacy: A Research Agenda},
+  Author                   = {Janine S. Hiller and Jung-Min Park},
+  Booktitle                = {The Research Conference on Communication and Internet Policy},
+  Year                     = {2014},
+  Month                    = {September},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@Article{DeepBeliefHinton2006,
+  Title                    = {A Fast Learning Algorithm for Deep Belief Nets},
+  Author                   = {Hinton, Geoffrey E. and Osindero, Simon and Teh, Yee-Whye},
+  Journal                  = {Neural Comput.},
+  Year                     = {2006},
+
+  Month                    = jul,
+  Number                   = {7},
+  Pages                    = {1527--1554},
+  Volume                   = {18},
+
+  Acmid                    = {1161605},
+  Address                  = {Cambridge, MA, USA},
+  Doi                      = {10.1162/neco.2006.18.7.1527},
+  ISSN                     = {0899-7667},
+  Issue_date               = {July 2006},
+  Numpages                 = {28},
+  Owner                    = {egaebel},
+  Publisher                = {MIT Press},
+  Timestamp                = {2015.10.19},
+  Url                      = {http://dx.doi.org/10.1162/neco.2006.18.7.1527}
+}
+
+@Article{UniversalApproxHornik1991,
+  Title                    = {Approximation Capabilities of Multilayer Feedforward Networks},
+  Author                   = {Hornik, Kurt},
+  Journal                  = {Neural Netw.},
+  Year                     = {1991},
+
+  Month                    = mar,
+  Number                   = {2},
+  Pages                    = {251--257},
+  Volume                   = {4},
+
+  Acmid                    = {109700},
+  Address                  = {Oxford, UK, UK},
+  Doi                      = {10.1016/0893-6080(91)90009-T},
+  ISSN                     = {0893-6080},
+  Issue_date               = {1991},
+  Numpages                 = {7},
+  Owner                    = {egaebel},
+  Publisher                = {Elsevier Science Ltd.},
+  Timestamp                = {2015.12.14},
+  Url                      = {http://dx.doi.org/10.1016/0893-6080(91)90009-T}
+}
+
+@Article{CogRadMitola1999,
+  Title                    = {Cognitive Radio: Making Software Radios More Personal},
+  Author                   = {Joseph Mitola Iii and Gerald Q. Maguire Jr},
+  Journal                  = {IEEE Personal Communication},
+  Year                     = {1999},
+
+  Month                    = {August},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@Article{BatchNormIoffe2015,
+  Title                    = {Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift},
+  Author                   = {Sergey Ioffe and Christian Szegedy},
+  Journal                  = {CoRR},
+  Year                     = {2015},
+  Volume                   = {abs/1502.03167},
+
+  Bibsource                = {dblp computer science bibliography, http://dblp.org},
+  Biburl                   = {http://dblp.uni-trier.de/rec/bib/journals/corr/IoffeS15},
+  Owner                    = {egaebel},
+  Timestamp                = {2015.04.20},
+  Url                      = {http://arxiv.org/abs/1502.03167}
+}
+
+@InProceedings{UserPerceptionPairing,
+  Title                    = {Influence of User Perception, Security Needs, and Social Factors on Device Pairing Method Choices},
+  Author                   = {Ion, Iulia and Langheinrich, Marc and Kumaraguru, Ponnurangam and \v{C}apkun, Srdjan},
+  Booktitle                = {Proceedings of the Sixth Symposium on Usable Privacy and Security},
+  Year                     = {2010},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {6:1--6:13},
+  Publisher                = {ACM},
+  Series                   = {SOUPS '10},
+
+  Acmid                    = {1837118},
+  Articleno                = {6},
+  Doi                      = {10.1145/1837110.1837118},
+  ISBN                     = {978-1-4503-0264-7},
+  Keywords                 = {authentication, device pairing, security, social factors, usability, user studies},
+  Location                 = {Redmond, Washington, USA},
+  Numpages                 = {13},
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.13},
+  Url                      = {http://doi.acm.org/10.1145/1837110.1837118}
+}
+
+@InProceedings{IDSRFFingerprintHall2004,
+  Title                    = {Enhancing Intrusion Detection in Wireless Networks using Radio Frequency Fingerprinting},
+  Author                   = {J. Hall, M. Barbeau, and E. Kranakis},
+  Booktitle                = {Communications, Internet and Information Technology},
+  Year                     = {2004},
+
+  Abstract                 = {Media access control (MAC) address spoofing can result in the unauthorized use of network resources. This paper demonstrates a novel approach, which incorporates radio frequency fingerprinting (RFF) into a wireless intrusion de tection system (IDS), for detecting this attack. RFF is a technique that is used to uniquely identify a transceiver based on the transient portion of the signal it generates. Moreover, the success rate of a wireless IDS is also im proved by correlating several observations in time, using a Bayesian filter. Simulation results, with an average suc cess rate of (94-100%), support the feasibility of employ ing RFF and Bayesian filtering techniques to successfully address the aforementioned problem.},
+  Owner                    = {egaebel},
+  Timestamp                = {2015.04.21}
+}
+
+@Misc{BestArchObjectJarrett,
+  Title                    = {What is the Best Multi-Stage Architecture for Object Recognition?},
+
+  Author                   = {Kevin Jarrett and Koray Kavukcuoglu and Yann Lecun},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.10.19}
+}
+
+@InProceedings{ArrayTrackXiong2013,
+  Title                    = {ArrayTrack: a fine-grained indoor location system},
+  Author                   = {Jie Xiong, Kyle Jamieson},
+  Booktitle                = {10th USENIX conference on Networked Systems Design and Implementation},
+  Year                     = {2013},
+
+  Abstract                 = {With myriad augmented reality, social networking, and retail shopping applications all on the horizon for the mobile handheld, a fast and accurate location technology will become key to a rich user experience. When roaming outdoors, users can usually count on a clear GPS signal for accurate location, but indoors, GPS often fades, and so up until recently, mobiles have had to rely mainly on rather coarse-grained signal strength readings. What has changed this status quo is the recent trend of dramatically increasing numbers of antennas at the indoor access point, mainly to bolster capacity and coverage with multiple-input, multiple-output (MIMO) techniques. We thus observe an opportunity to revisit the important problem of localization with a fresh perspective. This paper presents the design and experimental evaluation of ArrayTrack, an indoor location system that uses MIMO-based techniques to track wireless clients at a very fine granularity in real time, as they roam about a building. With a combination of FPGA and general purpose computing, we have built a prototype of the ArrayTrack system. Our results show that the techniques we propose can pinpoint 41 clients spread out over an indoor office environment to within 23 centimeters median accuracy, with the system incurring just 100 milliseconds latency, making for the first time ubiquitous real-time, fine-grained location available on the mobile handset.},
+  Owner                    = {egaebel},
+  Review                   = {Problem: Locating the position of a wireless device from the wireless signals alone.\\ \\ Solution: ArrayTrack, a system that relies on several access points with multiple antennas to gather data to allow for locating a user and mitigating the effects of multipath in a small, indoor environment. The ArrayTrack system relies primarily upon several angle of arrivals (AoA) on an array of antennas to distinguish between the signal and its multipath components. In addition, several such access points are used, in different locations to obtain a lot of data which can then be used to accurately estimate signal location of origin within an accuracy of 23 cm.\\ \\ Why Did I Read It?: To aid my understanding of the work invovled in Changlai's project.\\ \\},
+  Timestamp                = {2015.01.30}
+}
+
+@InProceedings{PinPointJoshi2013,
+  Title                    = {PinPoint: Localizing Interfering Radios},
+  Author                   = {Kiran Joshi and Steven Hong and Sachin Katti},
+  Booktitle                = {Presented as part of the 10th USENIX Symposium on Networked Systems Design and Implementation (NSDI 13)},
+  Year                     = {2013},
+
+  Address                  = {Lombard, IL},
+  Pages                    = {241--253},
+  Publisher                = {USENIX},
+
+  ISBN                     = {978-1-931971-00-3},
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.12},
+  Url                      = {https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/joshi}
+}
+
+@Article{LionSerrano2011,
+  Title                    = {Modeling The Lion Attack in Cognitive Radio Networks},
+  Author                   = {Juan Hernandez-Serrano, Olga Leon, and Miguel Soriano},
+  Journal                  = {EURASIP Journal on Wireless Communications and Networking},
+  Year                     = {2011},
+
+  Month                    = {August},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.02.18}
+}
+
+@Article{SecEnforcePark2014,
+  Title                    = {Security and Enforcement in Spectrum Sharing},
+  Author                   = {Jung-Min (Jerry) Park, Jeffrey H. Reed, A. A. Beex, T. Charles Clancy, Vireshwar Kumar, and Benham Bahrak},
+  Journal                  = {Proceedings of the IEEE},
+  Year                     = {2014},
+
+  Month                    = {March},
+  Number                   = {3},
+  Volume                   = {192},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@Article{SpecEmitterIdentificationTalbot2003,
+  Title                    = {Specific Emitter Identification and Verification},
+  Author                   = {K.I. Talbot, P.R. Duley, and M.H. Hyatt},
+  Journal                  = {Technology},
+  Year                     = {2003},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.05.15}
+}
+
+@InProceedings{UsabilitySecurityOutOfBandPairingKainda2009,
+  Title                    = {Usability and Security of Out-of-band Channels in Secure Device Pairing Protocols},
+  Author                   = {Kainda, Ronald and Flechais, Ivan and Roscoe, A. W.},
+  Booktitle                = {Proceedings of the 5th Symposium on Usable Privacy and Security},
+  Year                     = {2009},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {11:1--11:12},
+  Publisher                = {ACM},
+  Series                   = {SOUPS '09},
+
+  Acmid                    = {1572547},
+  Articleno                = {11},
+  Doi                      = {10.1145/1572532.1572547},
+  ISBN                     = {978-1-60558-736-3},
+  Keywords                 = {pairing devices, security protocols, usability},
+  Location                 = {Mountain View, California, USA},
+  Numpages                 = {12},
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.13},
+  Url                      = {http://doi.acm.org/10.1145/1572532.1572547}
+}
+
+@InProceedings{SurveySecThreatCRNChauhan2014,
+  Title                    = {Survey of Security Threats and Attacks in Cognitive Radio Networks},
+  Author                   = {Kamal Kumar Chauhan, Amit Kumar Singh Sanger},
+  Booktitle                = {2014 International Conference on Electronics and Communication Systems (ICECS)},
+  Year                     = {2014},
+  Pages                    = {1-5},
+  Publisher                = {IEEE},
+
+  Abstract                 = {Number of technologies has been developed in wireless communication and there is always a common issue in this field i.e. `Security' due to its open medium of communication. Now, spectrum allocation is becoming major problem in wireless communication due to paucity of available spectrum. Cognitive radio is one of the rapidly increasing technologies in wireless communication. Cognitive radio promises to detract spectrum shortage problem by allowing unlicensed users to co-exist with licensed users in spectrum band and use it for communication while causing no interference with licensed users. Cognitive radio technology intelligently detects vacant channels and allows unlicensed users to use that one, while avoiding occupied channels optimizing the use of available spectrum. Initially research in cognitive radios focused on resource allocation, spectrum sensing and management. Parallelly, another important issue that garnered attention of researchers from academia and industry is Security. Security considerations show that the unique characteristics of cognitive radio such as spectrum sensing and sharing make it vulnerable to new class of security threats and attacks. These security threats are challenge in the deployment of CRN and meeting Quality of Service (QoS). This is a survey paper in which we identified and discussed some of the security threats and attacks in spectrum sensing and cognitive radio networks. Together with discussing security attacks, we also proposed some techniques to mitigate the effectiveness of these attacks.},
+  Owner                    = {egaebel},
+  Review                   = {Problem: Survey paper on cognitive radio attacks and mitigation.\\ \\ Solution: This paper is a very limited survey that seemingly contains no new information for me. I have read almost all of the papers on cognitive radio cited for this paper and this contains nothing new. It contains one reference that I have seen for the second time that may be useful to read, but that is it.\\ \\},
+  Timestamp                = {2015.01.23}
+}
+
+@InProceedings{SerialUsabilityPairingKobsa2009,
+  Title                    = {Serial Hook-ups: A Comparative Usability Study of Secure Device Pairing Methods},
+  Author                   = {Kobsa, Alfred and Sonawalla, Rahim and Tsudik, Gene and Uzun, Ersin and Wang, Yang},
+  Booktitle                = {Proceedings of the 5th Symposium on Usable Privacy and Security},
+  Year                     = {2009},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {10:1--10:12},
+  Publisher                = {ACM},
+  Series                   = {SOUPS '09},
+
+  Acmid                    = {1572546},
+  Articleno                = {10},
+  Doi                      = {10.1145/1572532.1572546},
+  ISBN                     = {978-1-60558-736-3},
+  Location                 = {Mountain View, California, USA},
+  Numpages                 = {12},
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.13},
+  Url                      = {http://doi.acm.org/10.1145/1572532.1572546}
+}
+
+@Book{InterfereTempKolodzy2006,
+  Title                    = {Interference Temperature: A Metric for Dynamic Spectrum Utilization},
+  Author                   = {Paul J. Kolodzy},
+  Publisher                = {www.kolodzy.com},
+  Year                     = {2006},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@TechReport{CIFARKrizhevsky2009,
+  Title                    = {Learning multiple layers of features from tiny images},
+  Author                   = {Alex Krizhevsky},
+  Year                     = {2009},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.10.18}
+}
+
+@InCollection{ImageNetClassKruzhevsky2012,
+  Title                    = {ImageNet Classification with Deep Convolutional Neural Networks},
+  Author                   = {Alex Krizhevsky and Sutskever, Ilya and Geoffrey E. Hinton},
+  Booktitle                = {Advances in Neural Information Processing Systems 25},
+  Publisher                = {Curran Associates, Inc.},
+  Year                     = {2012},
+  Editor                   = {F. Pereira and C.J.C. Burges and L. Bottou and K.Q. Weinberger},
+  Pages                    = {1097--1105},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.10.18},
+  Url                      = {http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf}
+}
+
+@InProceedings{ConferenceCompStudySecurePairingKumar2009,
+  Title                    = {A comparative study of secure device pairing methods},
+  Author                   = {A. Kumar and N. Saxena and G. Tsudik and E. Uzun},
+  Booktitle                = {Pervasive Computing and Communications, 2009. PerCom 2009. IEEE International Conference on},
+  Year                     = {2009},
+  Month                    = {March},
+  Pages                    = {1-10},
+
+  Doi                      = {10.1109/PERCOM.2009.4912753},
+  Keywords                 = {computer bootstrapping;radiocommunication;telecommunication channels;telecommunication security;Evil Twin attacks;MiTM attacks;acoustic;auxiliary human-perceptible channels;caveat emptor;device pairing process;human-imperceptible channels;human-imperceptible communication channel;information exchange authentication;man-in-the-middle attack;secure channel bootstrapping;secure device pairing methods;secure pairing;tactile;trust infrastructure;wireless communication channel;Bluetooth;Cameras;Communication system security;Computer science;Hardware;Humans;Personal digital assistants;Usability;Wireless communication;Wireless sensor networks},
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.12}
+}
+
+@Article{JournalCompStudySecurePairingKumar2009,
+  Title                    = {A Comparative Study of Secure Device Pairing Methods},
+  Author                   = {Kumar, Arun and Saxena, Nitesh and Tsudik, Gene and Uzun, Ersin},
+  Journal                  = {Pervasive Mob. Comput.},
+  Year                     = {2009},
+
+  Month                    = dec,
+  Number                   = {6},
+  Pages                    = {734--749},
+  Volume                   = {5},
+
+  Acmid                    = {1663721},
+  Address                  = {Amsterdam, The Netherlands, The Netherlands},
+  Doi                      = {10.1016/j.pmcj.2009.07.008},
+  ISSN                     = {1574-1192},
+  Issue_date               = {December, 2009},
+  Keywords                 = {Device pairing, Human-assisted authentication, Key agreement, Man-in-the-middle attacks, Usable security},
+  Numpages                 = {16},
+  Owner                    = {egaebel},
+  Publisher                = {Elsevier Science Publishers B. V.},
+  Timestamp                = {2016.04.12},
+  Url                      = {http://dx.doi.org/10.1016/j.pmcj.2009.07.008}
+}
+
+@Article{AliceMeetsBobKumar2009,
+  Title                    = {Alice Meets Bob: {A} Comparative Usability Study of Wireless Device Pairing Methods for a "Two-User" Setting},
+  Author                   = {Arun Kumar and Nitesh Saxena and Ersin Uzun},
+  Journal                  = {CoRR},
+  Year                     = {2009},
+  Volume                   = {abs/0907.4743},
+
+  Bibsource                = {dblp computer science bibliography, http://dblp.org},
+  Biburl                   = {http://dblp.uni-trier.de/rec/bib/journals/corr/abs-0907-4743},
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.20},
+  Url                      = {http://arxiv.org/abs/0907.4743}
+}
+
+@InProceedings{ARLocalizationGameKumar2014,
+  Title                    = {Single access point based indoor localization technique for augmented reality gaming for children},
+  Author                   = {C. P. Kumar and R. Poovaiah and A. Sen and P. Ganadas},
+  Booktitle                = {Students' Technology Symposium (TechSym), 2014 IEEE},
+  Year                     = {2014},
+  Month                    = {Feb},
+  Pages                    = {229-232},
+
+  Doi                      = {10.1109/TechSym.2014.6808052},
+  Keywords                 = {astronomy computing;augmented reality;computer aided instruction;computer games;3D illusion;Kalman filter;Kinect-sensor environment;Wi-Fi RSSI data;astronomy learning;augmented reality gaming;celestial object;geo-tagging;indoor localization technique;indoor position tracking;inertial navigation system;onboard sensory data;potentiometer;remote play dimension;single access point;social media tool;tangible interaction;virtual 3D space;virtual game;virtual reality element;Augmented reality;Fingerprint recognition;Games;IEEE 802.11 Standards;Navigation;Sensor systems;Augmented reality;Depth perception;Experiential;Gestural;Interactions;Intuitive;Play and Learn;Space coordinates;Tangible;Virtual reality},
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.12}
+}
+
+@InProceedings{CycloSignalClassKim2007,
+  Title                    = {Cyclostationary Approaches to Signal Detection and Classification in Cognitive Radio},
+  Author                   = {Kyouwoong Kim, Ihsan A. Akbar, Kyung K. Bae, Jung-sun Um, Chad M. Spooner, and Jeffrey H. Reed},
+  Booktitle                = {IEEE International Symposium on New Frontiers in Dynamic Spectrum Access Networks (DySPAN)},
+  Year                     = {2007},
+  Month                    = {April},
+  Pages                    = {212-215},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.05.18}
+}
+
+@InProceedings{CyclostationaryFeatureKim2007,
+  Title                    = {Cyclostationary Approaches to Signal Detection and Classification in Cognitive Radio},
+  Author                   = {Kyouwoong Kim, Ihsan A. Akbar, Kyung K. Bae, Jung-sun Um, Chad M. Spooner , and Jeffrey H. Reed},
+  Booktitle                = {2nd IEEE International Symposium on New Frontiers in Dynamic Spectrum Access Networks},
+  Year                     = {2007},
+  Month                    = {April},
+  Pages                    = {212-215},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.04.24}
+}
+
+@InProceedings{SafelyAugmentLebeck2016,
+  Title                    = {How to Safely Augment Reality: Challenges and Directions},
+  Author                   = {Lebeck, Kiron and Kohno, Tadayoshi and Roesner, Franziska},
+  Booktitle                = {Proceedings of the 17th International Workshop on Mobile Computing Systems and Applications},
+  Year                     = {2016},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {45--50},
+  Publisher                = {ACM},
+  Series                   = {HotMobile '16},
+
+  Acmid                    = {2873595},
+  Doi                      = {10.1145/2873587.2873595},
+  ISBN                     = {978-1-4503-4145-5},
+  Keywords                 = {augmented reality, security},
+  Location                 = {St. Augustine, Florida, USA},
+  Numpages                 = {6},
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.12},
+  Url                      = {http://doi.acm.org/10.1145/2873587.2873595}
+}
+
+@InProceedings{GradientLearningLecun1998,
+  Title                    = {Gradient-based learning applied to document recognition},
+  Author                   = {Yann Lecun and L�on Bottou and Yoshua Bengio and Patrick Haffner},
+  Booktitle                = {Proceedings of the IEEE},
+  Year                     = {1998},
+  Pages                    = {2278--2324},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.10.18}
+}
+
+@Article{MnistLeun2009,
+  Title                    = {The MNIST database of handwritten digits},
+  Author                   = {Lecun, Yann and Cortes, Corinna},
+
+  Citeulike-article-id     = {599493},
+  Citeulike-linkout-0      = {http://yann.lecun.com/exdb/mnist/},
+  Keywords                 = {ai, mnist, recognition},
+  Owner                    = {egaebel},
+  Posted-at                = {2009-03-20 17:02:13},
+  Timestamp                = {2015.12.14},
+  Url                      = {http://yann.lecun.com/exdb/mnist/}
+}
+
+@Electronic{AmericanPrivacyOnlinePew2015,
+  Title                    = {Anonymity, Privacy, and Security Online},
+  Author                   = {LEE RAINIE, SARA KIESLER, RUOGU KANG AND MARY MADDEN},
+  HowPublished             = {Web article},
+  Month                    = {September},
+  Organization             = {Pew Research Center},
+  Url                      = {http://www.pewinternet.org/2013/09/05/anonymity-privacy-and-security-online/},
+  Year                     = {2015},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.15}
+}
+
+@InProceedings{LearningMultiScalBlockLBPHLiao2007,
+  Title                    = {Learning Multi-scale Block Local Binary Patterns for Face Recognition},
+  Author                   = {Liao, Shengcai and Zhu, Xiangxin and Lei, Zhen and Zhang, Lun and Li, Stan Z.},
+  Booktitle                = {Proceedings of the 2007 International Conference on Advances in Biometrics},
+  Year                     = {2007},
+
+  Address                  = {Berlin, Heidelberg},
+  Pages                    = {828--837},
+  Publisher                = {Springer-Verlag},
+  Series                   = {ICB'07},
+
+  Acmid                    = {2391754},
+  ISBN                     = {3-540-74548-3, 978-3-540-74548-8},
+  Keywords                 = {AdaBoost, LBP, MB-LBP, face recognition},
+  Location                 = {Seoul, Korea},
+  Numpages                 = {10},
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.13},
+  Url                      = {http://dl.acm.org/citation.cfm?id=2391659.2391754}
+}
+
+@Article{NetworkInNetworkLin2014,
+  Title                    = {Network In Network},
+  Author                   = {Min Lin and Qiang Chen and Shuicheng Yan},
+  Journal                  = {CoRR},
+  Year                     = {2013},
+  Volume                   = {abs/1312.4400},
+
+  Bibsource                = {dblp computer science bibliography, http://dblp.org},
+  Biburl                   = {http://dblp.uni-trier.de/rec/bib/journals/corr/LinCY13},
+  Owner                    = {egaebel},
+  Timestamp                = {2015.09.22},
+  Url                      = {http://arxiv.org/abs/1312.4400}
+}
+
+@InProceedings{CryptoPUAuthLiu2010,
+  Title                    = {Authenticating Primary Users' Signals in Cognitive Radio Networks via Integrated Cryptographic and Wireless Link Signatures},
+  Author                   = {Yao Liu and Peng Ning and Huaiyu Dai},
+  Booktitle                = {2010 IEEE Symposium on Security and Privacy (SP)},
+  Year                     = {2010},
+  Month                    = {May},
+  Publisher                = {IEEE},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@InProceedings{GoodSpamWords2005Lowd,
+  Title                    = {Good word attacks on statistical spam filters},
+  Author                   = {Daniel Lowd},
+  Booktitle                = {In Proceedings of the Second Conference on Email and Anti-Spam (CEAS},
+  Year                     = {2005},
+
+  Abstract                 = {Unsolicited commercial email is a significant problem for users and providers of email services. While statistical spam filters have proven useful, senders of spam are learning to bypass these filters by systematically modifying their email messages. In a good word attack, one of the most common techniques, a spammer modifies a spam message by inserting or appending words indicative of legitimate email. In this paper, we describe and evaluate the effectiveness of active and passive good word attacks against two types of statistical spam filters: naive Bayes and maximum entropy filters. We find that in passive attacks without any filter feedback, an attacker can get 50 % of currently blocked spam past either filter by adding 150 words or fewer. In active attacks allowing test queries to the target filter, 30 words will get half of blocked spam past either filter. 1},
+  Owner                    = {egaebel},
+  Review                   = {Problem: Defeating spam filters by adding good words, also, improving spam filters against good word attacks.\\ \\ Solution: The authors use lists of good words to select words to add to spam e-mails that will make the e-mails be classified as good instead of spam. Two spam filter varieties are studied: Naive Bayes and MaxEntropy and the authors present two algorithms to accomplish their goal.\\ Both algorithms search for words that will cause a spam e-mail to cross the threshold between classification as a legitimate e-mail and classification as a spam e-mail. The first algorithm simply takes the first N words found to satisfy this requirement while the second algorithm seeks for the best N words that satisfy the requirement; best meaning words holding the highest weight, so that they can have the largest affect on an e-mail's classification as good or bad. \\ These algorithms are experimentally measured in active attacks and compared to general passive attacks where no feedback is possible. The authors obtained good results in both of these attacks with active attacks significantly improving effectiveness (as one might guess). It was found that the first algorithm (first N words) performed better with respect to number of queries while the second algorithm (best N words) was able to slightly reduce the number of words required to get the e-mail past the filter, at the cost of an increase in queries on the order of thousands.\\ After showing the efficacy of their spam filter defeating techniques the author propose how to improve spam filters. Their analysis suggests that the only method to protect against these attacks is frequent retraining. They found that retraining cut the efficacy of the first N attack by ~62% on the Naive Bayes filter and ~99% on the MaxEntropy filter. Retraining cut the efficacy of the best N attack by ~87% on the Naive Bayes filter and ~99% on the MaxEntropy filter. This indicates that the MaxEntropy filter is much more dependent on retraining than Naive Bayes.\\ Why Did I Read It?: I read this paper to continue my study into adversarial learning.},
+  Timestamp                = {2015.01.12}
+}
+
+@InProceedings{AdversarialLearningLowd2005,
+  Title                    = {Adversarial Learning},
+  Author                   = {Daniel Lowd and Christopher Meek},
+  Booktitle                = {Conference on Knowledge Discovery and Data Mining (KDD)},
+  Year                     = {2005},
+  Month                    = {August},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@Article{OptimizeMUSICMohanna2013,
+  Title                    = {Optimization of MUSIC Algorithm for Angles of Arrival Estimation in Wireless Communications},
+  Author                   = {Mahmoud Mohanna, Mohamed L. Rabeh, Emad M. Zieur, Sherif Hekala},
+  Journal                  = {NRIAG Journal of Astronomy and Geophysics},
+  Year                     = {2013},
+  Pages                    = {116-124},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.08.31}
+}
+
+@InProceedings{CognitiveGAMaldonado2005,
+  Title                    = {Cognitive radio applications to dynamic spectrum allocation: a discussion and an illustrative example},
+  Author                   = {Maldonado, David and Le, Bin and Hugine, Akilah and Rondeau, Thomas W and Bostian, Charles W},
+  Booktitle                = {New Frontiers in Dynamic Spectrum Access Networks, 2005. DySPAN 2005. 2005 First IEEE International Symposium on},
+  Year                     = {2005},
+  Organization             = {IEEE},
+  Pages                    = {597--600},
+
+  Abstract                 = {In an effort to improve radio spectrum management and promote a more efficient use of it, regulatory bodies are currently trying to adopt a new spectrum access model. At the same time, cognitive radio technology has received a lot of interest as a possible enabling technology. In this paper, we provide a brief description of the broad impact of cognitive radios in different markets. At Virginia Tech’s Center for Wireless Telecommunications (CWT), we have designed a biologically inspired cognitive engine with dynamic spectrum access (DSA) as one of its intended applications. An experimental software simulation shows a 20 dB SINR improvement using cognitive techniques in an interference environment over that provided by current IEEE 802.11a service PHY standard.},
+  Owner                    = {egaebel},
+  Review                   = {Problem: Increasing spectrum efficiency in a noisy environment. Solution: Cognitive radio driven by a cognitive engine which relies upon a multiple objective genetic algorithm (MOGA). In the author's specific simulation they use signal to noise ratio (SNR) as the primary limiting factor on spectrum efficiency. In short, the genetic algorithm's objective function was to avoid interference between users accessing the same access point. Their simulation takes the wireless 802.11a/g standard and bolts on a cognitive engine to aid in channel selection. They found in their results that each link's quality of service (QoS) was improved and that overall spectrum utilization was improved. Why Did I Read It?: I am continuing backwards in time to look at the origins of cognitive radio. I think I'm almost as far back as I will go... Other Notes: If we assume that genetic algorithms are indeed good for optimization, then I do not see anything particularly novel about the approach here. The case considered is so simple that it seems obvious that putting even a small amount of "thought" behind it would improve the situation...},
+  Timestamp                = {2014.12.18}
+}
+
+@Article{SpotFiKotaru2015,
+  Title                    = {SpotFi: Decimeter Level Localization Using WiFi},
+  Author                   = {Manikanta Kotaru, Kiran Joshi, Dinesh Bharadia, and Sachin Katti},
+  Journal                  = {SIGCOMM Comput. Commun. Rev.},
+  Year                     = {2015},
+
+  Month                    = aug,
+  Number                   = {5},
+  Pages                    = {269--282},
+  Volume                   = {45},
+
+  Acmid                    = {2787487},
+  Address                  = {New York, NY, USA},
+  Doi                      = {10.1145/2829988.2787487},
+  ISSN                     = {0146-4833},
+  Issue_date               = {October 2015},
+  Keywords                 = {CSI, OFDM, indoor localization, internet of things (IOT), wifi, wireless},
+  Numpages                 = {14},
+  Publisher                = {ACM},
+  Timestamp                = {2016.04.20},
+  Url                      = {http://doi.acm.org/10.1145/2829988.2787487}
+}
+
+@TechReport{GcmModeMcGrewNist2005,
+  Title                    = {The Galois/Counter Mode of Operation (GCM)},
+  Author                   = {David A. McGrew and John Viega},
+  Institution              = {National Institute of Standards and Technology},
+  Year                     = {2005},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.23}
+}
+
+@Article{ReconfigAntennaAuthMookiah2012,
+  Title                    = {A Reconfigurable Antenna-Based Solution for Stationary Device Authentication in Wireless Networks},
+  Author                   = {Prathaban Mookiah and Kapil R. Dandekar},
+  Journal                  = {International Journal of Antennas and Propagation},
+  Year                     = {2012},
+  Volume                   = {2012},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.04.23}
+}
+
+@Article{SenseLessMurty2010,
+  Title                    = {SenseLess: A Database Driven White Spaces Network},
+  Author                   = {Murty, R; Chandra, R; Moscibroda, T; Bahl, P;},
+  Journal                  = {IEEE Transactions on Mobile Computing},
+  Year                     = {2010},
+
+  Month                    = {September},
+  Number                   = {2},
+  Pages                    = {189-203},
+  Volume                   = {11},
+
+  Abstract                 = {The 2010 FCC ruling on white spaces proposes relying on a database of incumbents as the primary means of determining white space availability at any white space device (WSD). While the ruling provides broad guidelines for the database, the specifics of its design, features, implementation, and use are yet to be determined. Furthermore, architecting a network where all WSDs rely on the database raises several systems and networking challenges that have remained unexplored. Also, the ruling treats the database only as a storehouse for incumbents. We believe that the mandated use of the database has an additional opportunity: a means to dynamically manage the RF spectrum. Motivated by this opportunity, in this paper, we present SenseLess, a database-driven white spaces network. As suggested by its very name, in SenseLess, WSDs rely on a database service to determine white spaces availability as opposed to spectrum sensing. The service, using a combination of an up-to-date database of incumbents, sophisticated signal propagation modeling, and an efficient content dissemination mechanism to ensure efficient, scalable, and safe white space network operation. We build, deploy, and evaluate SenseLess and compare our results to ground truth spectrum measurements. We present the unique system design considerations that arise due to operating over the white spaces. We also evaluate its efficiency and scalability. To the best of our knowledge, this is the first paper that identifies and examines the systems and networking challenges that arise from operating a white space network, which is solely dependent on a channel occupancy database.},
+  Owner                    = {egaebel},
+  Review                   = {Problem: Implementing spectrum sharing in white spaces without spectrum sensing.\\ \\ Solution: SenseLess; a service relying on computing whitespace availability based on complex models of RF propagation. The authors lay out a system, which they also implement in C#, to use map data of varying granularity along with locations of primary users and operating parameters (power, antenna height, etc) to compute available spectrum at any given time. The authors propose this technique over active spectrum sensing for various reasons, a few of which are: active spectrum sensing is a power intensive operation that would be ill-suited to mobile radios, the FCC has ruled that spectrum sharing in whitespaces should be carried out using databases (as well as spectrum sensing). The system requires location data from users hoping to communicate in the whitespaces so that the basestation (which is connected over the Internet to the spectrum availability service) can accurately determine if there exists any possibility of interference with primary users based on propagation models. One proposed method in this paper to alert users of channel availability is to continuously broadcast a listing of available channels; a problem referred to as "bootstrapping".\\ \\ Why Did I Read It?: I am seeking out literature on database driven dynamic spectrum access techniques. It seems to be sparse, but worth mentioning in my paper.\\ \\ Other Notes: The bootstrapping solution proposed would definitely be vulnerable to falsification by malicious users. They could either simply jam the basestation or jam and replace with their own false signal. I can make the case for including PHY layer authentication in this.\\ \\},
+  Timestamp                = {2015.01.29}
+}
+
+@Book{BitcoinNakamoto2008,
+  Title                    = {Bitcoin: A Peer-to-Peer Electronic Cash System},
+  Author                   = {Satoshi Nakamoto},
+  Publisher                = {online Bitcoin forum},
+  Year                     = {2008},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@Article{CogRadClassifiersSecurityNewman,
+  Title                    = {Security Threats in Cognitive Radio Signal Classifiers},
+  Author                   = {Timothy R. Newman and T. Charles Clancy},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.05.18}
+}
+
+@Article{BayesPUENguyen2012,
+  Title                    = {On Identifying Primary User Emulation Attacks in Cognitive Radio Systems Using Nonparametric Bayesian Classification},
+  Author                   = {Nam Tuan Nguyen and Rong Zheng and Zhu Han},
+  Journal                  = {IEEE Transactions on Signal Processing},
+  Year                     = {2012},
+
+  Month                    = {March},
+  Number                   = {3},
+  Volume                   = {60},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@Book{NNDNNielsen2015,
+  Title                    = {Neural Networks and Deep Learning},
+  Author                   = {Michael A. Nielsen},
+  Publisher                = {Determination Press},
+  Year                     = {2015},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.10.18}
+}
+
+@InProceedings{ProximityAndRSSLocalizationPatwari2003,
+  Title                    = {Using Proximity and Quantized RSS for Sensor Localization in Wireless Networks},
+  Author                   = {Patwari, Neal and Hero,III, Alfred O.},
+  Booktitle                = {Proceedings of the 2Nd ACM International Conference on Wireless Sensor Networks and Applications},
+  Year                     = {2003},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {20--29},
+  Publisher                = {ACM},
+  Series                   = {WSNA '03},
+
+  Acmid                    = {941354},
+  Doi                      = {10.1145/941350.941354},
+  ISBN                     = {1-58113-764-8},
+  Keywords                 = {Cram{\'e}r-Rao lower bound, localization, proximity, received signal strength, wireless sensor networks},
+  Location                 = {San Diego, CA, USA},
+  Numpages                 = {10},
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.12},
+  Url                      = {http://doi.acm.org/10.1145/941350.941354}
+}
+
+@Article{CycloSignaturesSutton2008,
+  Title                    = {Cyclostationary Signatures in Practical Cognitive Radio Applications},
+  Author                   = {Paul D. Sutton, Keith E. Nolan, and Linda E. Doyle},
+  Journal                  = {IEEE Journal on Selected Areas in Communications},
+  Year                     = {2008},
+
+  Month                    = {January},
+  Number                   = {1},
+  Pages                    = {13-24},
+  Volume                   = {26},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.05.18}
+}
+
+@Article{SimplePairingAnalysisBluetooth4Phan2010,
+  Title                    = {Analyzing the Secure Simple Pairing in Bluetooth v4.0},
+  Author                   = {Phan, Raphael C.-W. and Mingard, Patrick},
+  Journal                  = {Wireless Personal Communications},
+  Year                     = {2010},
+  Number                   = {4},
+  Pages                    = {719--737},
+  Volume                   = {64},
+
+  Abstract                 = {This paper analyzes the security of Bluetooth v4.0's Secure Simple Pairing (SSP) protocol, for both the Bluetooth Basic Rate/Enhanced Data Rate (BR/EDR) and Bluetooth Low Energy (LE) operational modes. Bluetooth v4.0 is the latest version of a wireless communication standard for low-speed and low-range data transfer among devices in a human's PAN. It allows increased network mobility among devices such as headsets, PDAs, wireless keyboards and mice. A pairing process is initiated when two devices desire to communicate, and this pairing needs to correctly authenticate devices so that a secret link key is established for secure communication. What is interesting is that device authentication relies on humans to communicate verification information between devices via a human-aided out-of-band channel. Bluetooth v4.0's SSP protocol is designed to offer security against passive eavesdropping and man-in-the-middle (MitM) attacks. We conduct the first known detailed analysis of SSP for all its MitM-secure models. We highlight some issues related to exchange of public keys and use of the passkey in its models and discuss how to treat them properly.},
+  Doi                      = {10.1007/s11277-010-0215-1},
+  ISSN                     = {1572-834X},
+  Owner                    = {egaebel},
+  Timestamp                = {2016.03.29},
+  Url                      = {http://dx.doi.org/10.1007/s11277-010-0215-1}
+}
+
+@Article{ModulationClassificationCyclicRamkumar2009,
+  Title                    = {Automatic Modulation Classification Using Cyclic Feature Detection},
+  Author                   = {Barathram Ramkumar},
+  Journal                  = {IEEE Circuits and Systems Magazine},
+  Year                     = {2009},
+  Number                   = {2},
+  Pages                    = {27-45},
+  Volume                   = {9},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.05.18}
+}
+
+@Article{CollabSenseByzantineRawat2011,
+  Title                    = {Collaborative Spectrum Sensing in the Prescence of Byzantine Attacks in Cognitive Radio Networks},
+  Author                   = {Ankit Singh Rawat and Priyank Anand and Hao Chen and Pramod K. Varshney},
+  Journal                  = {IEEE Transactions on Signal Processing},
+  Year                     = {2011},
+
+  Month                    = {February},
+  Number                   = {2},
+  Volume                   = {59},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@PhdThesis{GeneticRieser2004,
+  Title                    = {Biologically Inspired Cognitive Radio Engine Model Utilizing Distributed Genetic Algorithms for Secure and Robust Wireless Communications and Networking},
+  Author                   = {Christian James Rieser},
+  School                   = {Virginia Polytechnic Institute and State University},
+  Year                     = {2004},
+
+  Address                  = {Blacksburg, Virginia},
+  Month                    = {August},
+
+  Abstract                 = {This research focuses on developing a cognitive radio that could operate reliably in unforeseen communications environments like those faced by the disaster and emergency response communities. Cognitive radios may also offer the potential to open up secondary or complimentary spectrum markets, effectively easing the perceived spectrum crunch while providing new competitive wireless services to the consumer. A structure and process for embedding cognition in a radio is presented, including discussion of how the mechanism was derived from the human learning process and mapped to a mathematical formalism called the BioCR. Results from the implementation and testing of the model in a hardware test bed and simulation test bench are presented, with a focus on rapidly deployable disaster communications. Research contributions include developing a biologically inspired model of cognition in a radio architecture, proposing that genetic algorithm operations could be used to realize this model, developing an algorithmic framework to realize the cognition mechanism, developing a cognitive radio simulation toolset for evaluating the behavior the cognitive engine, and using this toolset to analyze the cognitive engine’s performance in different operational scenarios. Specifically, this research proposes and details how the chaotic meta-knowledge search, optimization, and machine learning properties of distributed genetic algorithm operations could be used to map this model to a computable mathematical framework in conjunction with dynamic multi-stage distributed memories. The system formalism is contrasted with existing cognitive radio approaches, including traditionally brittle artificial intelligence approaches. The cognitive engine architecture and algorithmic framework is developed and introduced, including the Wireless Channel Genetic Algorithm (WCGA), WirelessSystem Genetic Algorithm (WSGA), and Cognitive System Monitor (CSM). Experimental results show that the cognitive engine finds the best tradeoff between a host radio's operational parameters in changing wireless conditions, while the baseline adaptive controller only increases or decreases its data rate based on a threshold, often wasting usable bandwidth or excess power when it is not needed due its inability to learn. Limitations of this approach include some situations where the engine did not respond properly due to sensitivity in algorithm parameters, exhibiting ghosting of answers, bouncing back and forth between solutions. Future research could be pursued to probe the limits of the engine’s operation and investigate opportunities for improvement, including how best to configure the genetic algorithms and engine mathematics to avoid engine solution errors. Future research also could include extending the cognitive engine to a cognitive radio network and investigating implications for secure communications.},
+  Owner                    = {egaebel},
+  Review                   = {IN PROGRESS},
+  Timestamp                = {2014.12.17}
+}
+
+@InProceedings{GeneticCogRadioTestbed2004Rieser,
+  Title                    = {Cognitive radio testbed: further details and testing of a distributed genetic algorithm based cognitive engine for programmable radios},
+  Author                   = {Rieser, C.J. ; Rondeau, T.W. ; Bostian, C.W. ; Gallagher, T.M.},
+  Booktitle                = {IEEE Military Communications Conference, 2004. MILCOM 2004},
+  Year                     = {2004},
+  Publisher                = {IEEE},
+  Volume                   = {3},
+
+  Abstract                 = {This paper provides details of a distributed genetic algorithm (GA) based cognitive radio engine model for disaster communications and its implementation in a cognitive radio test bed using programmable radios. Future applications include tactical and covert communications. The cognitive system monitor (CSM) module presented here permits cross layer cognition and adaptation of a programmable radio by classifying the observed channel, matching channel behavior with operational goals, and passing these goals to a wireless system genetic algorithm (WSGA) adaptive controller module to evolve and optimize radio operation. The CSM module algorithm provides for parallel distributed operation and includes a learning classifier and meta-GA functions that work from a knowledge base (which may be distributed) in long term memory to synthesize matched channels and operational goals that are retained in short term memory. Experimental results show that the cognitive engine finds the best tradeoff between a host radio's operational parameters in changing wireless conditions, while the baseline adaptive controller only increases or decreases its data rate based on a threshold, often wasting usable bandwidth or excess power when it is not needed due its inability to learn.},
+  Owner                    = {egaebel},
+  Review                   = {Problem: Testing the efficacy of a cognitive radio system using genetic algorithms for its cognitive engine.\\ \\ Solution: This paper describes, at a high level, the cognitive architecture of a cognitive radio system testbed that uses genetic algorithms to make decisions in a wireless environment. The focus of the paper is on results, parameters chosen, performance achieved, and raw data. The cognitive engine is only described at a very high level. The authors' simulation and experiment do indicate that their approach is successful in tuning radio parameters effectively. In particular they experimented with a video stream transmission on a channel being jammed. The cognitive radio was able to keep the radio link active despite being forced (by the researchers) to remain on the frequency being jammed.\\ \\ Why Did I Read It?: I had hoped to gain insight into the inner workings of a cognitive engine reliant on genetic algorithms, since from my reading that seems to be a very popular choice.\\ \\ Other Thoughts: This paper was not particularly insightful. High level descriptions were given of the cognitive engine, which may be of use later in my work, but the kind of deep technical knowledge I had hoped for was not present in this paper. There are several cited articles in this paper that seem to be part of the same project, it is my hope that some of these may be fruitful.\\},
+  Timestamp                = {2015.01.12}
+}
+
+@Article{CellSecFoesRiezenman2000,
+  Title                    = {Cellular Security: better, but foes still lurk},
+  Author                   = {Michael J. Riezenman},
+  Journal                  = {IEEE Spectr},
+  Year                     = {2000},
+
+  Month                    = {June},
+  Number                   = {6},
+  Pages                    = {39-42},
+  Volume                   = {37},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.05.15}
+}
+
+@Article{SecurityAndPrivacyForARRoesner2014,
+  Title                    = {Security and Privacy for Augmented Reality Systems},
+  Author                   = {Roesner, Franziska and Kohno, Tadayoshi and Molnar, David},
+  Journal                  = {Commun. ACM},
+  Year                     = {2014},
+
+  Month                    = apr,
+  Number                   = {4},
+  Pages                    = {88--96},
+  Volume                   = {57},
+
+  Acmid                    = {2580730},
+  Address                  = {New York, NY, USA},
+  Doi                      = {10.1145/2580723.2580730},
+  ISSN                     = {0001-0782},
+  Issue_date               = {April 2014},
+  Numpages                 = {9},
+  Owner                    = {egaebel},
+  Publisher                = {ACM},
+  Timestamp                = {2016.04.12},
+  Url                      = {http://doi.acm.org/10.1145/2580723.2580730}
+}
+
+@InCollection{BackpropHinton1988,
+  Title                    = {Neurocomputing: Foundations of Research},
+  Author                   = {Rumelhart, David E. and Hinton, Geoffrey E. and Williams, Ronald J.},
+  Publisher                = {MIT Press},
+  Year                     = {1988},
+
+  Address                  = {Cambridge, MA, USA},
+  Chapter                  = {Learning Representations by Back-propagating Errors},
+  Editor                   = {Anderson, James A. and Rosenfeld, Edward},
+  Pages                    = {696--699},
+
+  Acmid                    = {104451},
+  ISBN                     = {0-262-01097-6},
+  Numpages                 = {4},
+  Owner                    = {egaebel},
+  Timestamp                = {2015.10.18},
+  Url                      = {http://dl.acm.org/citation.cfm?id=65669.104451}
+}
+
+@Article{DefSpecEfficiencyRysavy2014,
+  Title                    = {Challenges and Considerations in Defining Spectrum Efficiency},
+  Author                   = {Peter Rysavy},
+  Journal                  = {Proceedings of the IEEE},
+  Year                     = {2014},
+
+  Month                    = {March},
+  Number                   = {3},
+  Volume                   = {102},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@Standard{EllipticCurvesStandard2009,
+  Title                    = {Elliptic Curve Cryptography Subject Public Key Information},
+  Institution              = {Internet Engineering Task Force},
+  Organization             = {Network Working Group},
+  Author                   = {S. Turner, IECA, D. Brown, Certicom, K. Yiu, Microsoft, R. Housley, Vigil Security, T. Polk, NIST},
+  Month                    = {March},
+  Url                      = {https://www.ietf.org/rfc/rfc5480.txt},
+  Year                     = {2009},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.23}
+}
+
+@Article{BeliefManipulationSavas2014,
+  Title                    = {Securing Cognitive Radio Networks Against Belief Manipulation Attacks via Trust Management},
+  Author                   = {Onur Savas and Gahng Seop Ahn},
+  Journal                  = {International Conference on Collaboration Technologies and Systems (CTS)},
+  Year                     = {2014},
+
+  Month                    = {May},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@InProceedings{VisualChannelPairingSaxena2006,
+  Title                    = {Secure device pairing based on a visual channel},
+  Author                   = {N. Saxena and J. E. Ekberg and K. Kostiainen and N. Asokan},
+  Booktitle                = {2006 IEEE Symposium on Security and Privacy (S P'06)},
+  Year                     = {2006},
+  Month                    = {May},
+  Pages                    = {6 pp.-313},
+
+  Doi                      = {10.1109/SP.2006.35},
+  ISSN                     = {1081-6011},
+  Keywords                 = {message authentication;public key cryptography;mutual authentication;pairing protocols;public key;secure communication;secure device pairing;trusted third party;unidirectional visual channel;visual channel authentication;Authentication;Bluetooth;Cameras;Context;Displays;Protocols;Public key;Security;Switches;Wireless communication},
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.12}
+}
+
+@InProceedings{PairingInterfaceConstrainedRushingSaxena2009,
+  Title                    = {Secure Pairing of "Interface-Constrained" Devices Resistant Against Rushing User Behavior},
+  Author                   = {Saxena, Nitesh and Uddin, Md. Borhan},
+  Booktitle                = {Proceedings of the 7th International Conference on Applied Cryptography and Network Security},
+  Year                     = {2009},
+
+  Address                  = {Berlin, Heidelberg},
+  Pages                    = {34--52},
+  Publisher                = {Springer-Verlag},
+  Series                   = {ACNS '09},
+
+  Acmid                    = {1560520},
+  Doi                      = {10.1007/978-3-642-01957-9_3},
+  ISBN                     = {978-3-642-01956-2},
+  Keywords                 = {Authentication, Device Pairing, Evil Twin Attacks, Security, Usability, Wireless Communication},
+  Location                 = {Paris-Rocquencourt, France},
+  Numpages                 = {19},
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.13},
+  Url                      = {http://dx.doi.org/10.1007/978-3-642-01957-9_3}
+}
+
+@Article{MUSICSchmidt1986,
+  Title                    = {Multiple emitter location and signal parameter estimation},
+  Author                   = {Schmidt, R.O.},
+  Journal                  = {Antennas and Propagation, IEEE Transactions on},
+  Year                     = {1986},
+
+  Month                    = {Mar},
+  Number                   = {3},
+  Pages                    = {276-280},
+  Volume                   = {34},
+
+  Doi                      = {10.1109/TAP.1986.1143830},
+  ISSN                     = {0018-926X},
+  Keywords                 = {Adaptive arrays;Direction-of-arrival estimation;Parameter estimation;Signal processing antennas;Direction of arrival estimation;Frequency estimation;Interference;Multiple signal classification;Parameter estimation;Polarization;Sensor arrays;Sensor phenomena and characterization;Signal processing;Working environment noise},
+  Owner                    = {egaebel},
+  Timestamp                = {2016.01.19}
+}
+
+@InProceedings{SpotLocalizationPhyLayerSen2012,
+  Title                    = {You Are Facing the Mona Lisa: Spot Localization Using PHY Layer Information},
+  Author                   = {Sen, Souvik and Radunovic, Bo\v{z}idar and Choudhury, Romit Roy and Minka, Tom},
+  Booktitle                = {Proceedings of the 10th International Conference on Mobile Systems, Applications, and Services},
+  Year                     = {2012},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {183--196},
+  Publisher                = {ACM},
+  Series                   = {MobiSys '12},
+
+  Acmid                    = {2307654},
+  Doi                      = {10.1145/2307636.2307654},
+  ISBN                     = {978-1-4503-1301-8},
+  Keywords                 = {application, cross-layer, localization, wireless},
+  Location                 = {Low Wood Bay, Lake District, UK},
+  Numpages                 = {14},
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.12},
+  Url                      = {http://doi.acm.org/10.1145/2307636.2307654}
+}
+
+@Article{ConvHouseNumbersSermanet2012,
+  Title                    = {Convolutional Neural Networks Applied to House Numbers Digit Classification},
+  Author                   = {Pierre Sermanet and Soumith Chintala and Yann LeCun},
+  Journal                  = {CoRR},
+  Year                     = {2012},
+  Volume                   = {abs/1204.3968},
+
+  Bibsource                = {dblp computer science bibliography, http://dblp.org},
+  Biburl                   = {http://dblp.uni-trier.de/rec/bib/journals/corr/abs-1204-3968},
+  Owner                    = {egaebel},
+  Timestamp                = {2015.09.22},
+  Url                      = {http://arxiv.org/abs/1204.3968}
+}
+
+@Article{GameCoopShah2014,
+  Title                    = {A Game Theory Based Model for Cooperative Spectrum Sharing in Cognitive Radio},
+  Author                   = {Samkit K. Shah and Kiran R. Parmar},
+  Journal                  = {International Journal of Current Engineering and Technology},
+  Year                     = {2014},
+
+  Month                    = {June},
+  Number                   = {3},
+  Volume                   = {4},
+
+  Abstract                 = {This paper throws light on the issue of spectrum sharing in cognitive radio networks where the secondary users cooperatively sense the spectrum for identifying and accessing temporarily unoccupied frequency spectrum bands. Here, it is shown that this issue can be modeled as a cooperative game in order to allocate the spectrum resources fairly to each cognitive radio. The users form coalitions to jointly sense and share the spectrum bands. The worth of each user is calculated according to the work done by the user for the corresponding coalition with respect to the information collected about the primary user activity from sensing the spectrum band. Resulting games are balanced, thus ensuring non-empty cores for allocating resources to the users. It is also found that the games are also convex, hence enabling one-point solution concepts like the Shapley value, tau value and nucleolus which lie within the core to provide stability. The simulation results for the game model applied to the case of 5 users and 8 channels are also illustrated.},
+  Owner                    = {egaebel},
+  Review                   = {Problem: Channel allocation in a decentralized spectrum sharing environment.\\ \\ Solution: Designating one user as a fusion center and then using a game theoretical model casting channel allocation as a cooperative game. This allows for modeling the problem as a convex problem, where there are several available solutions. The solutions used in the paper utilize 'single-point' methods.\\},
+  Timestamp                = {2015.02.13}
+}
+
+@Article{PhyCramShan2013,
+  Title                    = {PHY-CRAM: Physical Layer Challenge-Response Authentication Mechanism for Wireless Networks},
+  Author                   = {Dan Shan and Kai Zeng and Weidont Xiang and Paul Richardson and Yan Dong},
+  Journal                  = {IEEE Journal on Selected Areas in Communication},
+  Year                     = {2013},
+
+  Month                    = {August},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@Article{HearingPUEWhiteSpaceChen2013,
+  Title                    = {Hearing is Believing: Detecting Mobile Primary User Emulation Attack in White Space},
+  Author                   = {Shaxun Chen, Kai Zeng, Prasant Mohapatra},
+  Journal                  = {IEEE Transactions on Mobile Computing},
+  Year                     = {2013},
+
+  Month                    = {December},
+  Number                   = {3},
+  Pages                    = {401-411},
+  Volume                   = {12},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.05.14}
+}
+
+@InProceedings{QuantifyingLocationPrivacyShokri2011,
+  Title                    = {Quantifying Location Privacy},
+  Author                   = {Shokri, Reza and Theodorakopoulos, George and Le Boudec, Jean-Yves and Hubaux, Jean-Pierre},
+  Booktitle                = {Proceedings of the 2011 IEEE Symposium on Security and Privacy},
+  Year                     = {2011},
+
+  Address                  = {Washington, DC, USA},
+  Pages                    = {247--262},
+  Publisher                = {IEEE Computer Society},
+  Series                   = {SP '11},
+
+  Acmid                    = {2006769},
+  Doi                      = {10.1109/SP.2011.18},
+  ISBN                     = {978-0-7695-4402-1},
+  Keywords                 = {Location Privacy, Evaluation Framework, Location Traces, Quantifying Metric, Location-Privacy Meter},
+  Numpages                 = {16},
+  Owner                    = {egaebel},
+  Timestamp                = {2015.12.21},
+  Url                      = {http://dx.doi.org/10.1109/SP.2011.18}
+}
+
+@Article{VeryDeepConvSimonyan2014,
+  Title                    = {Very Deep Convolutional Networks for Large-Scale Image Recognition},
+  Author                   = {Karen Simonyan and Andrew Zisserman},
+  Journal                  = {CoRR},
+  Year                     = {2014},
+  Volume                   = {abs/1409.1556},
+
+  Bibsource                = {dblp computer science bibliography, http://dblp.org},
+  Biburl                   = {http://dblp.uni-trier.de/rec/bib/journals/corr/SimonyanZ14a},
+  Owner                    = {egaebel},
+  Timestamp                = {2015.09.22},
+  Url                      = {http://arxiv.org/abs/1409.1556}
+}
+
+@TechReport{SeamlessCustomerIdentificationSmowton2013,
+  Title                    = {Seamless Customer Identification},
+  Author                   = {Christopher Smowton and Jacob R. Lorch and David Molnar and Stefan Saroiu and Alec Wolman},
+  Year                     = {2013},
+  Month                    = {March},
+  Number                   = {MSR-TR-2013-31},
+
+  Abstract                 = {<p>This paper proposes "seamless customer identification" (SCI), a means to identify physically present customers without any effort on customers' part beyond a one-time opt-in. With SCI, customers need not present cards or operate smartphones to convey their identities. So, stores can provide personalized shopping experiences at any time, not just at check-out. SCI uses two complementary technologies: device detection and face recognition. Device detection identifies customers by detecting their phones through low-power wireless discovery, in our case using Bluetooth Low Energy (BLE). Face recognition recognizes customers by matching pictures captured during registration with images captured by a store camera. Device detection makes face recognition feasible by limiting the number of potential customers, while face recognition provides directional information that device detection lacks. Together, these technologies provide an ordering of likely candidates to a store employee, who makes the final determination of identity. We have designed and built SCI, and demonstrated its usefulness in an application called Zero-Effort Payments (ZEP). ZEP uses SCI to let customers effortlessly make small purchases at a coffee stand. We conducted two real-world deployments of ZEP on actual customers: a two-day deployment during a technology fair and a four-month deployment in our building. Across both deployments, 274 customers made 705 purchases using ZEP. Through these deployments and other experiments, we demonstrate how our techniques make seamless customer identification feasible and practical.</p>},
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.12},
+  Url                      = {http://research.microsoft.com/apps/pubs/default.aspx?id=188607}
+}
+
+@Article{AllConvNetSpringenberg2014,
+  Title                    = {Striving for Simplicity: The All Convolutional Net},
+  Author                   = {Jost Tobias Springenberg and Alexey Dosovitskiy and Thomas Brox and Martin A. Riedmiller},
+  Journal                  = {CoRR},
+  Year                     = {2014},
+  Volume                   = {abs/1412.6806},
+
+  Bibsource                = {dblp computer science bibliography, http://dblp.org},
+  Biburl                   = {http://dblp.uni-trier.de/rec/bib/journals/corr/SpringenbergDBR14},
+  Owner                    = {egaebel},
+  Timestamp                = {04/01 Apr 2015 20:06:15 +0200},
+  Url                      = {http://arxiv.org/abs/1412.6806}
+}
+
+@Article{DropoutHinton2014,
+  Title                    = {Dropout: A Simple Way to Prevent Neural Networks from Overfitting},
+  Author                   = {Nitish Srivastava and Geoffrey Hinton and Alex Krizhevsky and Ilya Sutskever and Ruslan Salakhutdinov},
+  Journal                  = {Journal of Machine Learning Research},
+  Year                     = {2014},
+  Pages                    = {1929-1958},
+  Volume                   = {15},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.10.19},
+  Url                      = {http://jmlr.org/papers/v15/srivastava14a.html}
+}
+
+@InProceedings{DucklingStajano2000,
+  Title                    = {The Resurrecting Duckling: Security Issues for Ad-hoc Wireless Networks},
+  Author                   = {Stajano, Frank and Anderson, Ross J.},
+  Booktitle                = {Proceedings of the 7th International Workshop on Security Protocols},
+  Year                     = {2000},
+
+  Address                  = {London, UK, UK},
+  Pages                    = {172--194},
+  Publisher                = {Springer-Verlag},
+
+  Acmid                    = {760118},
+  ISBN                     = {3-540-67381-4},
+  Numpages                 = {23},
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.12},
+  Url                      = {http://dl.acm.org/citation.cfm?id=647217.760118}
+}
+
+@InProceedings{MomentumSutskever2013,
+  Title                    = {On the importance of initialization and momentum in deep learning},
+  Author                   = {Ilya Sutskever and James Martens and George E. Dahl and Geoffrey E. Hinton},
+  Booktitle                = {Proceedings of the 30th International Conference on Machine Learning (ICML-13)},
+  Year                     = {2013},
+  Editor                   = {Sanjoy Dasgupta and David Mcallester},
+  Month                    = may,
+  Number                   = {3},
+  Pages                    = {1139-1147},
+  Publisher                = {JMLR Workshop and Conference Proceedings},
+  Volume                   = {28},
+
+  Timestamp                = {2016.04.20},
+  Url                      = {http://jmlr.org/proceedings/papers/v28/sutskever13.pdf}
+}
+
+@InProceedings{UbicarseKumar2014,
+  Title                    = {Accurate Indoor Localization With Zero Start-up Cost},
+  Author                   = {Swarun Kumar, Stephanie Gil, Dina Katabi, Daniela Rus},
+  Booktitle                = {Proceedings of the 20th annual international conference on Mobile computing and networking (Mobicom)},
+  Year                     = {2014},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.08.31}
+}
+
+@InProceedings{GoingDeeperSzegedy2015,
+  Title                    = {Going Deeper with Convolutions},
+  Author                   = {Christian Szegedy and Wei Liu and Yangqing Jia and Pierre Sermanet and Scott Reed and Dragomir Anguelov and Dumitru Erhan and Vincent Vanhoucke and Andrew Rabinovich},
+  Booktitle                = {CVPR 2015},
+  Year                     = {2015},
+
+  Timestamp                = {2016.04.20},
+  Url                      = {http://arxiv.org/abs/1409.4842}
+}
+
+@Article{SignalClassLearnClancy2011,
+  Title                    = {Robust Signal Classification Using Unsupervised Learning},
+  Author                   = {T. Charles Clancy, Awais Khawar, and Timothy R. Newman},
+  Journal                  = {IEEE Transactions on Mobile Computing},
+  Year                     = {2011},
+
+  Month                    = {April},
+  Number                   = {4},
+  Pages                    = {1289-1299},
+  Volume                   = {10},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.05.18}
+}
+
+@InProceedings{FreezeTCPGoff2000,
+  Title                    = {Freeze-TCP: A True End-to-End TCP Enhancement Mechanism for Mobile Environments.pdf},
+  Author                   = {T. Goff, J. Moronski, D.S. Phatak, and V. Gupta},
+  Booktitle                = {Nineteenth Annual Joint Conference of the IEEE Computer and Communications Societies (INFOCOM)},
+  Year                     = {2000},
+  Month                    = {March},
+  Pages                    = {1537-1545},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.05.18}
+}
+
+@InProceedings{SpecMisuseTan2012,
+  Title                    = {Detecting Spectrum Misuse in Wireless Networks},
+  Author                   = {Kefeng Tan and Kai Zeng and Daniel Wu and Prasant Mohapatra},
+  Booktitle                = {IEEE 9 th International Conference on Mobile Adhoc and Sensor Systems},
+  Year                     = {2012},
+  Month                    = {October},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@InProceedings{CryptoLinkSigTan2011,
+  Title                    = {Cryptographic Link Signatures for Spectrum Usage Authentication in Cognitive Radio},
+  Author                   = {Xi Tan and Kapil Borle and Wenliang Du and Biao Chen},
+  Booktitle                = {WiSec},
+  Year                     = {2011},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@MastersThesis{MUSICDOAEstimationTang2014,
+  Title                    = {DOA estimation based on MUSIC algorithm},
+  Author                   = {Honghao Tang},
+  School                   = {Linnaeus University},
+  Year                     = {2014},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.12}
+}
+
+@Article{CogEngImplWirelessMultiNewman2007,
+  Title                    = {Cognitive engine implementation for wireless multicarrier transceivers},
+  Author                   = {Tim R. Newman, Brett A. Barker, Alexander M. Wyglinski, Arvin Agah, Joseph B. Evans, and Gary J. Minden},
+  Journal                  = {Wireless Communications and Mobile Computing},
+  Year                     = {2007},
+
+  Month                    = {November},
+  Number                   = {9},
+  Pages                    = {1129-1142},
+  Volume                   = {7},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.05.16}
+}
+
+@Article{NewbornsFaceRecognitionTurati2006,
+  Title                    = {Newborns' face recognition: role of inner and outer facial features},
+  Author                   = {Turati C, Macchi Cassia V, Simion F, Leo I.},
+  Journal                  = {Child Development},
+  Year                     = {2006},
+
+  Month                    = {March},
+  Pages                    = {297-311},
+  Volume                   = {77},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.23}
+}
+
+@Article{EigenfacesTurk1991,
+  Title                    = {Eigenfaces for Recognition},
+  Author                   = {Turk, Matthew and Pentland, Alex},
+  Journal                  = {J. Cognitive Neuroscience},
+  Year                     = {1991},
+
+  Month                    = jan,
+  Number                   = {1},
+  Pages                    = {71--86},
+  Volume                   = {3},
+
+  Acmid                    = {1326894},
+  Address                  = {Cambridge, MA, USA},
+  Doi                      = {10.1162/jocn.1991.3.1.71},
+  ISSN                     = {0898-929X},
+  Issue_date               = {Winter 1991},
+  Numpages                 = {16},
+  Owner                    = {egaebel},
+  Publisher                = {MIT Press},
+  Timestamp                = {2016.01.21},
+  Url                      = {http://dx.doi.org/10.1162/jocn.1991.3.1.71}
+}
+
+@InBook{SecurePairingUsabilityUzun2007,
+  Title                    = {Financial Cryptography and Data Security: 11th International Conference, FC 2007, and 1st International Workshop on Usable Security, USEC 2007, Scarborough, Trinidad and Tobago, February 12-16, 2007. Revised Selected Papers},
+  Author                   = {Uzun, Ersin and Karvonen, Kristiina and Asokan, N.},
+  Chapter                  = {Usability Analysis of Secure Pairing Methods},
+  Editor                   = {Dietrich, Sven and Dhamija, Rachna},
+  Pages                    = {307--324},
+  Publisher                = {Springer Berlin Heidelberg},
+  Year                     = {2007},
+
+  Address                  = {Berlin, Heidelberg},
+
+  Doi                      = {10.1007/978-3-540-77366-5_29},
+  ISBN                     = {978-3-540-77366-5},
+  Owner                    = {egaebel},
+  Timestamp                = {2016.03.18},
+  Url                      = {http://dx.doi.org/10.1007/978-3-540-77366-5_29}
+}
+
+@Book{DistDetectFusionVarshney1996,
+  Title                    = {Distributed Detection and Data Fusion},
+  Author                   = {Pramod K. Varshney},
+  Publisher                = {Springer-Verlag},
+  Year                     = {1996},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.04.15}
+}
+
+@InProceedings{ChronosSingleAPLocalizationVasisht2016,
+  Title                    = {Decimeter-Level Localization with a Single WiFi Access Point},
+  Author                   = {Deepak Vasisht and Swarun Kumar and Dina Katabi},
+  Booktitle                = {13th USENIX Symposium on Networked Systems Design and Implementation (NSDI 16)},
+  Year                     = {2016},
+
+  Address                  = {Santa Clara, CA},
+  Month                    = Mar,
+  Pages                    = {165--178},
+  Publisher                = {USENIX Association},
+
+  ISBN                     = {978-1-931971-29-4},
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.23},
+  Url                      = {https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/vasisht}
+}
+
+@InProceedings{SASVaudenay2005,
+  Title                    = {Secure Communications over Insecure Channels Based on Short Authenticated Strings},
+  Author                   = {Vaudenay, Serge},
+  Booktitle                = {Proceedings of the 25th Annual International Conference on Advances in Cryptology},
+  Year                     = {2005},
+
+  Address                  = {Berlin, Heidelberg},
+  Pages                    = {309--326},
+  Publisher                = {Springer-Verlag},
+  Series                   = {CRYPTO'05},
+
+  Acmid                    = {2153438},
+  Doi                      = {10.1007/11535218_19},
+  ISBN                     = {3-540-28114-2, 978-3-540-28114-6},
+  Location                 = {Santa Barbara, California},
+  Numpages                 = {18},
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.13},
+  Url                      = {http://dx.doi.org/10.1007/11535218_19}
+}
+
+@InProceedings{HaarCascadeViola2001,
+  Title                    = {Rapid object detection using a boosted cascade of simple features},
+  Author                   = {Viola, P. and Jones, M.},
+  Booktitle                = {Computer Vision and Pattern Recognition, 2001. CVPR 2001. Proceedings of the 2001 IEEE Computer Society Conference on},
+  Year                     = {2001},
+  Pages                    = {I-511-I-518 vol.1},
+  Volume                   = {1},
+
+  Doi                      = {10.1109/CVPR.2001.990517},
+  ISSN                     = {1063-6919},
+  Keywords                 = {feature extraction;image classification;image representation;learning (artificial intelligence);object detection;AdaBoost;background regions;boosted simple feature cascade;classifiers;face detection;image processing;image representation;integral image;machine learning;object specific focus-of-attention mechanism;rapid object detection;real-time applications;statistical guarantees;visual object detection;Detectors;Face detection;Filters;Focusing;Image representation;Machine learning;Object detection;Pixel;Robustness;Skin},
+  Timestamp                = {2016.04.20}
+}
+
+@InProceedings{BlindTransmitKumar2014,
+  Title                    = {Blind Transmitter Authentication for Spectrum Security and Enforcement},
+  Author                   = {Vireshwar Kumar, Jung-Min ``Jerry'' Park , and Kaigui Bian},
+  Booktitle                = {SIGSAC Conference on Computer and Communications Security},
+  Year                     = {2014},
+  Pages                    = {787-798},
+  Publisher                = {Conference on Computer and Communications Security},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@InProceedings{PhyAuthKumar2013,
+  Title                    = {PHY-Layer Authentication by Introducing Controlled Inter Symbol Interference},
+  Author                   = {Vireshwar Kumar, Jung-Min ``Jerry'' Park, T Charles Clancey, and Kaigui Bian},
+  Booktitle                = {IEEE Conference on Communications and Network Security (CNS)},
+  Year                     = {2013},
+  Publisher                = {IEEE},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@InProceedings{RadiometricIdVladimir2008,
+  Title                    = {Wireless device identification with radiometric signatures},
+  Author                   = {Vladimir Brik, Suman Banerjee, Marco Gruteser, and Sangho Oh},
+  Booktitle                = {14th ACM International Conference on Mobile Computing and Networking},
+  Year                     = {2008},
+  Pages                    = {116-127},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.04.24}
+}
+
+@Electronic{HoloLensVisualPairing2016,
+  Title                    = {Visual Pairing Question},
+  Author                   = {Neeraj Wadhwa},
+  HowPublished             = {On a Microsoft GitHub repository issues page as a question.},
+  Language                 = {English},
+  Month                    = {April},
+  Organization             = {Microsoft},
+  Url                      = {https://github.com/Microsoft/HoloToolkit/issues/4},
+  Year                     = {2016},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.19}
+}
+
+@InCollection{DropoutRegularizationWager2013,
+  Title                    = {Dropout Training as Adaptive Regularization},
+  Author                   = {Wager, Stefan and Wang, Sida and Liang, Percy S},
+  Booktitle                = {Advances in Neural Information Processing Systems 26},
+  Publisher                = {Curran Associates, Inc.},
+  Year                     = {2013},
+  Editor                   = {C.J.C. Burges and L. Bottou and M. Welling and Z. Ghahramani and K.Q. Weinberger},
+  Pages                    = {351--359},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.10.19},
+  Url                      = {http://papers.nips.cc/paper/4882-dropout-training-as-adaptive-regularization.pdf}
+}
+
+@InProceedings{DropConnectWan2013,
+  Title                    = {Regularization of Neural Networks using DropConnect},
+  Author                   = {Li Wan and Matthew Zeiler and Sixin Zhang and Yann L. Cun and Rob Fergus},
+  Booktitle                = {Proceedings of the 30th International Conference on Machine Learning (ICML-13)},
+  Year                     = {2013},
+  Editor                   = {Sanjoy Dasgupta and David Mcallester},
+  Month                    = may,
+  Number                   = {3},
+  Pages                    = {1058-1066},
+  Publisher                = {JMLR Workshop and Conference Proceedings},
+  Volume                   = {28},
+
+  Abstract                 = {We introduce DropConnect, a generalization of DropOut, for regularizing large fully-connected layers within neural networks. When training with Dropout, a randomly selected subset of activations are set to zero within each layer. DropConnect instead sets a randomly selected subset of weights within the network to zero. Each unit thus receives input from a random subset of units in the previous layer. We derive a bound on the generalization performance of both Dropout and DropConnect. We then evaluate DropConnect on a range of datasets, comparing to Dropout, and show state-of-the-art results on several image recoginition benchmarks can be obtained by aggregating multiple DropConnect-trained models.},
+  Owner                    = {egaebel},
+  Timestamp                = {2015.10.18},
+  Url                      = {http://jmlr.org/proceedings/papers/v28/wan13.pdf}
+}
+
+@Book{CrossLayerWang2010,
+  Title                    = {Cross-Layer Attack and Defense in Cognitive Radio Networks},
+  Author                   = {Wenkai Wang and Yan Sun and Huseng Li and Zhu Han},
+  Publisher                = {IEEE Globecom},
+  Year                     = {2010},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@Misc{GNURadio2015,
+  Author                   = {GNU Radio Website},
+  Year                     = {accessed May 2015},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.05.15},
+  Url                      = {http://www.gnuradio.org}
+}
+
+@Article{RSSIToCSIZheng2013,
+  Title                    = {From RSSI to CSI: Indoor Localization via Channel Response},
+  Author                   = {Yang, Zheng and Zhou, Zimu and Liu, Yunhao},
+  Journal                  = {ACM Comput. Surv.},
+  Year                     = {2013},
+
+  Month                    = dec,
+  Number                   = {2},
+  Pages                    = {25:1--25:32},
+  Volume                   = {46},
+
+  Acmid                    = {2543592},
+  Address                  = {New York, NY, USA},
+  Articleno                = {25},
+  Doi                      = {10.1145/2543581.2543592},
+  ISSN                     = {0360-0300},
+  Issue_date               = {November 2013},
+  Keywords                 = {CSI, Indoor localization, RSSI, human detection},
+  Numpages                 = {32},
+  Owner                    = {egaebel},
+  Publisher                = {ACM},
+  Timestamp                = {2016.04.12},
+  Url                      = {http://doi.acm.org/10.1145/2543581.2543592}
+}
+
+@Article{SurvHybridCRNsYu2014,
+  Title                    = {The Security of Physical Layer in Cognitive Radio Networks},
+  Author                   = {Yi-cheng Yu, Liang Hu, Hong-tu Li, Yuan-mo Zhang, Fang-ming Wu, and Jian-feng Chu},
+  Journal                  = {Journal of Communications},
+  Year                     = {2014},
+
+  Month                    = {December},
+  Number                   = {12},
+  Pages                    = {916-922},
+  Volume                   = {9},
+
+  Abstract                 = {Cognitive Radio (CR) is a novel technology that promises to solve the lack of spectrum by allowing secondary users to use licensed band, so that they can coexist with primary users without causing interference to their communications. With the development of CR, extending to the level of network, cognitive radio networks (CRNs) emerge as the times require. Nowadays the operational aspects of CRN are being explored vigorously, and several potential security challenges for cognitive radio have gained lots of attention. In this paper, we explore the security issues on physical layer for cognitive radio networks. First, we give a brief overview of the CRNs, then we review several existing secure threats to the physical layer in CRNs and we propose a new kind of security problem. Next, we discuss the related countermeasures on how to defend against these attacks. Subsequently, we conduct an evaluation of these countermeasures, and make some future works for secure CRNs. At last, we make the conclusion.},
+  Owner                    = {egaebel},
+  Review                   = {Problem: Survey of security issues in various types of cognitive radio networks.\\ \\ Solution: This paper hits on many familiar security issues in cognitive radio networks, but contains a few new perspectives. The most interesting of these perspectives is distinguishing between objective function attacks, which temporarily impair a cognitive radio's service quality, and a learning attack, which inflicts long term damage on the cognitive radio's cognition cycle. In addition, this survey takes into account three different varieties of cognitive radio networks: peer-to-peer, infrastructure driven (like cellular networks), and (in my opinion the most likely scenario) mesh networks which are a mix between the two previous varieties. \\ Why Did I Read It?: To survey the style in which cognitive radio survey papers are being written as well as to find a new resource for discovering new papers relating to cognitive radio security. \\ \\},
+  Timestamp                = {2015.01.16}
+}
+
+@Article{AntiJammingWu2012,
+  Title                    = {Anti-Jamming Games in Multi-Channel Cognitive Radio Networks},
+  Author                   = {Yongle Wu, and Beibei Wang, K. J. Ray Liu, and T. Charles Clancy},
+  Journal                  = {IEEE Journal on Selected Areas in Communications},
+  Year                     = {2012},
+
+  Month                    = {January},
+  Number                   = {1},
+  Volume                   = {30},
+
+  Abstract                 = {Crucial to the successful deployment of cognitive radio networks, security issues have begun to receive research interests recently. In this paper, we focus on defending against the jamming attack, one of the major threats to cognitive radio networks. Secondary users can exploit the flexible access to multiple channels as the means of anti-jamming defense. We first investigate the situation where a secondary user can access only one channel at a time and hop among different channels, and model it as an anti-jamming game. Analyzing the interaction between the secondary user and attackers, we derive a channel hopping defense strategy using the Markov decision process approach with the assumption of perfect knowledge, and then propose two learning schemes for secondary users to gain knowl- edge of adversaries to handle cases without perfect knowledge. In addition, we extend to the scenario where secondary users can access all available channels simultaneously, and redefine the anti-jamming game with randomized power allocation as the defense strategy. We derive the Nash equilibrium for this Colonel Blotto game which minimizes the worst-case damage. Finally, simulation results are presented to verify the performance.},
+  Owner                    = {egaebel},
+  Review                   = {Problem: Cognitive radios, and indeed any radio, is subject to jamming.\\ \\ Solution: Use game theoretic techniques and learning to develop strategies for changing radio parameters to avoid or run from jammers. The authors create several different game models to fit different scenarios. First, they create an anti-jamming game, where utility is gained from communication and a certain amount of utility is lost from having to hop channels. The authors then examine how Markov decision processes (MDPs) can be used to reason about strategies for this game. The MDP model assumes perfect knowledge Second, the authors examine feeding the MDP with learned knowledge from experience. The authors examine how well MLE-Based learning works and how well Q-Learning works. Third, the authors formulate a new game with enough radios to cover all channels but a constrained power budget; the power allocation game examines how a secondary user should allocate power to minimize jamming. \\ \\ Why Did I Read It?: I am aware that game theory is a popular paradigm to apply to cognitive radios, I decided I should examine it to see if I can find any security implications. Since the authors are using learning it is my hope that I can find a way to attack this approach to instill malicious or false beliefs into the learning engine. \\ \\ Other Notes: The authors give very rigorous proofs and models in this paper and it is very thorough. This is definitely a paper I will come back to reference again.\\},
+  Timestamp                = {2014.12.12}
+}
+
+@Article{SpecSenseSurveyYucek2009,
+  Title                    = {A Survey of Spectrum Sensing Algorithms for Cognitive Radio Applications},
+  Author                   = {Tevfik Yucek and Huseyin Arslan},
+  Journal                  = {IEEE Communications Surveys and Tutorials},
+  Year                     = {2009},
+  Number                   = {1},
+  Pages                    = {116-130},
+  Volume                   = {11},
+
+  Abstract                 = {The spectrum sensing problem has gained new aspects with cognitive radio and opportunistic spectrum access concepts. It is one of the most challenging issues in cognitive radio systems. In this paper, a survey of spectrum sensing methodologies for cognitive radio is presented. Various aspects of spectrum sensing problem are studied from a cognitive radio perspective and multi-dimensional spectrum sensing concept is introduced. Challenges associated with spectrum sensing are given and enabling spectrum sensing methods are reviewed. The paper explains the cooperative sensing concept and its various forms. External sensing algorithms and other alternative sensing methods are discussed. Furthermore, statistical modeling of network traffic and utilization of these models for prediction of primary user behavior is studied. Finally, sensing features of some current wireless standards are given.},
+  Owner                    = {egaebel},
+  Review                   = {Very well written. Goes through myriad methods for sensing spectrum, utilizes a precise dichotomy.},
+  Timestamp                = {2015.04.21}
+}
+
+@InProceedings{BayCogEngineHuang2010,
+  Title                    = {Model of Learning Inference and Decision-Making Engine in Cognitive Radio},
+  Author                   = {Yuqing Huang, Jiao Wang, Hong Jiang},
+  Booktitle                = {2010 Second International Conference on Networks Security Wireless Communications and Trusted Computing (NSWCTC)},
+  Year                     = {2010},
+  Month                    = {April},
+  Pages                    = {24-25},
+  Volume                   = {2},
+
+  Abstract                 = {Cognitive radio (CR) is an intelligent wireless communication system and the core of it is the cognitive engine. Cognitive engine is expected to implement cognitive learning, inference, decision-making through the artificial intelligence technology to decide a specific radio configuration (i.e. carrier frequency, modulation type, power, etc.) according to the changing of environment. In this paper, a cognitive radio learning inference and decision-making engine based on Bayesian network (BN) is proposed to obtain the optimum configuration rules adapt to the variation of the environment with the learning and inference algorithm of Bayesian network. Simulation results show the feasibility and validity of modeling the cognitive learning inference and decision-making engine with Bayesian network.},
+  Owner                    = {egaebel},
+  Review                   = {Problem: Learning optimal radio parameters in CRs.\\ \\ Solution: A Bayesian network. The authors espouse the benefits of using a Bayesian network as being able to learn structure as well as parameters through the K2 Algorithm and the maxmim likelihood estimation algorithm, respectively. Following this process the authors describe an inference step that can be used to identify different scenarios the cognitive radio will face and infer correct actions. The authors support their claims through very limited simulation results using 802.11a data. The data is fed into their Bayesian network and they check the resulting action of the CR. To me this is a very limited study and requires much more rigorous evaluation.\\ \\ Why did I read it?: To survey other learning techniques that are being explored for use in cognitive radios' cognitive engines besides genetic algorithms. \\ Other Notes: This is one of the worst written/edited papers I've come across. There are spaces missing in places, there are spelling errors (in titles!), and the grammar is bad (which is excusable).\\ On the bright side, this paper cites several papers that I have not seen before that relate to cognitive engine development, a few of which also involve non-genetic algorithm approaches.\\ \\},
+  Timestamp                = {2015.01.23}
+}
+
+@InProceedings{PowerWSPRTJin2009,
+  Title                    = {Detecting Primary User Emulation Attacks in Dynamic Spectrum Access Networks},
+  Author                   = {Z. Jin, S. Anaand, and K.P. Subbalakshmi},
+  Booktitle                = {IEEE International Conference on Communications (ICC)},
+  Year                     = {2009},
+  Month                    = {June},
+  Pages                    = {1-5},
+
+  Abstract                 = {In this paper, we present an analytical model as well as a practical mechanism to detect denial of service (DoS) attacks on secondary users in dynamic spectrum access (DSA) networks. In particular, we analyze primary user emulation attacks (PUEA) in cognitive radio networks without using any location information and therefore can do away with dedicated sensor networks. We present an analysis using Fenton's approximation and Wald's sequential probability ratio test (WSPRT) to detect PUEA. Simulation results demonstrate that it is possible to keep the probability of success of PUEA low, while still keeping the probability of missing the return of the primary low as well.},
+  Owner                    = {egaebel},
+  Review                   = {The authors use Wald's sequential probability ratio test to detect primary user emulation attacks. They use it by having the secondary users collaborate to compare notes on whether a primary user has been detected. Primary user detected by each party is done by testing power levels. An initial assumption that primary users are TV towers is made, making power detection a feasible security measure.},
+  Timestamp                = {2015.04.06}
+}
+
+@Article{IndoorLocationTrackingRSSIZaruba2007,
+  Title                    = {Indoor Location Tracking Using RSSI Readings from a Single Wi-Fi Access Point},
+  Author                   = {Z\`{a}ruba, G. V. and Huber, M. and Kamangar, F. A. and Chlamtac, I.},
+  Journal                  = {Wirel. Netw.},
+  Year                     = {2007},
+
+  Month                    = apr,
+  Number                   = {2},
+  Pages                    = {221--235},
+  Volume                   = {13},
+
+  Acmid                    = {1232045},
+  Address                  = {Secaucus, NJ, USA},
+  Doi                      = {10.1007/s11276-006-5064-1},
+  ISSN                     = {1022-0038},
+  Issue_date               = {April 2007},
+  Keywords                 = {Monte Carlo sampling, location estimation, simulation, system design, wireless experiments},
+  Numpages                 = {15},
+  Owner                    = {egaebel},
+  Publisher                = {Springer-Verlag New York, Inc.},
+  Timestamp                = {2016.04.12},
+  Url                      = {http://dx.doi.org/10.1007/s11276-006-5064-1}
+}
+
+@Electronic{CifarTorch2015,
+  Title                    = {92.45% on CIFAR-10 in Torch},
+  Author                   = {Sergey Zagoruyko},
+  Month                    = {July},
+  Url                      = {http://torch.ch/blog/2015/07/30/cifar.html},
+  Year                     = {2015},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.12.14}
+}
+
+@Article{AdvancesWirelessIndoorLocalizationFarid2013,
+  Title                    = {Recent Advances in Wireless Indoor Localization Techniques and System},
+  Author                   = {Zahid Farid, Rosdiadee Nordin, and Mahamod Ismail},
+  Journal                  = {Journal of Computer Networks and Communications},
+  Year                     = {2013},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.08.28}
+}
+
+@InProceedings{FactorGraphCoopSenseZarrin2008,
+  Title                    = {Belief Propagation on Factor Graphs for Cooperative Spectrum Sensing in Cognitive Radio},
+  Author                   = {Sepideh Zarrin and Teng Joon Lim},
+  Booktitle                = {3rd IEEE Symposium on New Frontiers in Dynamic Spectrum Access Networks (DySPAN)},
+  Year                     = {2008},
+  Month                    = {October},
+  Organization             = {IEEE},
+  Pages                    = {1-9},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.05.18}
+}
+
+@InProceedings{outdoorWifiLocalizationZhang2011,
+  Title                    = {I am the antenna: accurate outdoor AP location using smartphones},
+  Author                   = {Zengbin Zhang, Xia Zhou, Weile Zhang, Yuanyang Zhang, Gang Wang, Ben Y. Zhao, Haitao Zheng},
+  Booktitle                = {MobiCom '11 Proceedings of the 17th annual international conference on Mobile computing and networking},
+  Year                     = {2011},
+  Organization             = {ACM},
+  Pages                    = {109-120},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.08.28}
+}
+
+@InProceedings{ModelPUEAttackDefenseChen2009,
+  Title                    = {Modeling Primary User Emulation Attacks and Defenses in Cognitive Radio Networks},
+  Author                   = {Zesheng Chen, Todor Cooklev, Chao Chen, and Carlos Pomalaza-Raez},
+  Booktitle                = {IEEE 28th International Performance Computing and Communications Conference (IPCCC)},
+  Year                     = {2009},
+  Month                    = {December},
+  Publisher                = {IEEE},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.05.14}
+}
+
+@InProceedings{EnergyDetectXuping2007,
+  Title                    = {Energy-Detection Based Spectrum Sensing for Cognitive Radio},
+  Author                   = {Zhai Xuping, Pan Jianguo},
+  Booktitle                = {IET Conference on Wireless, Mobile and Sensor Networks},
+  Year                     = {2007},
+  Month                    = {December},
+  Pages                    = {944-947},
+  Publisher                = {IET},
+
+  Abstract                 = {In this paper we investigated the energy detection technique for spectrum sensing in cognitive radio systems. The detection performance and the impact of the noise uncertainty on the detection probability are analyzed theoretically. To deal with the hidden terminal problem and the local spectrum sensing in wireless signal detections, a distributed M- cooperative sensing scheme is proposed. Through analysis and simulation, we have shown the benefits of the proposed scheme in increasing the agility of cognitive radio systems. With small tradeoffs between the detection probability and the false alarm probability, the scheme improves the spectrum sensing ability greatly in low SNR situations.},
+  Owner                    = {egaebel},
+  Timestamp                = {2015.04.22}
+}
+
+@Article{BANZhang2014,
+  Title                    = {Trustworthiness of Medical Devices and Body Area Networks},
+  Author                   = {Meng Zhang and Anand Raghunathan and Niraj K. Jha},
+  Journal                  = {Proceedings of the IEEE},
+  Year                     = {2014},
+
+  Month                    = {August},
+  Number                   = {8},
+  Volume                   = {102},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2014.11.11}
+}
+
+@Article{OptLinearCoopSensingQuan2008,
+  Title                    = {Optimal Linear Cooperation for Spectrum Sensing in Cognitive Radio Networks},
+  Author                   = {Zhi Quan, Shuguang Cui, and Ali H. Sayed},
+  Journal                  = {IEEE Journal of Selected Topics in Signal Processing},
+  Year                     = {2008},
+
+  Month                    = {February},
+  Number                   = {1},
+  Pages                    = {28-40},
+  Volume                   = {2},
+
+  Abstract                 = {Cognitive radio technology has been proposed to improve spectrum efficiency by having the cognitive radios act as secondary users to opportunistically access under-utilized frequency bands. Spectrum sensing, as a key enabling functionality in cognitive radio networks, needs to reliably detect signals from licensed primary radios to avoid harmful interference. However, due to the effects of channel fading/shadowing, individual cognitive radios may not be able to reliably detect the existence of a primary radio. In this paper, we propose an optimal linear cooperation framework for spectrum sensing in order to accurately detect the weak primary signal. Within this framework, spectrum sensing is based on the linear combination of local statistics from individual cognitive radios. Our objective is to minimize the interference to the primary radio while meeting the requirement of opportunistic spectrum utilization. We formulate the sensing problem as a nonlinear optimization problem. By exploiting the inherent structures in the problem formulation, we develop efficient algorithms to solve for the optimal solutions. To further reduce the computational complexity and obtain solutions for more general cases, we finally propose a heuristic approach, where we instead optimize a modified deflection coefficient that characterizes the probability distribution function of the global test statistics at the fusion center. Simulation results illustrate significant cooperative gain achieved by the proposed strategies. The insights obtained in this paper are useful for the design of optimal spectrum sensing in cognitive radio networks.},
+  Owner                    = {egaebel},
+  Review                   = {The authors frame cooperative spectrum sensing decisions in the form of several different optimization problems, the simplest of them being solvable using Linear programming. The authors concern themselves with three classes of performance with respect to opportunistic spectrum utilization: conservative system, aggressive system, hostile system. The authors demonstrate how to optimize for each of these cases using percentage constraints levied upon each of these three classes.},
+  Timestamp                = {2015.04.15}
+}
+
+@Electronic{awsinstancespecs2015,
+  Title                    = {Amazon EC2 Instance Types},
+  Url                      = {https://aws.amazon.com/ec2/instance-types/},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.12.14}
+}
+
+@Standard{IEEE802.22OfficialStandard2014,
+  Title                    = {Part 22: Cognitive Wireless RAN Medium Access Control (MAC) and Physical Layer (PHY) Specifications: Policies and Procedures for Operation in the TV Bands Amendment 1: Management and Control Plane Interfaces and Procedures and Enhancement to the Management Information Base (MIB)},
+  Institution              = {IEEE},
+  Organization             = {IEEE Standards Association},
+  Year                     = {2014},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.05.15}
+}
+
+@Standard{WiFiDirectP2p2014,
+  Title                    = {Wi-Fi Peer-to-Peer Services (P2Ps) Technical Specification},
+  Institution              = {Wi-Fi Alliance},
+  Year                     = {2014},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.23}
+}
+
+@Standard{IEEE802.11afOfficialStandard2013,
+  Title                    = {Part 11: Wireless LAN Medium Access Control (MAC) and Physical Layer (PHY) Specifications Amendment 5: Television White Spaces (TVWS) Operation},
+  Institution              = {IEEE},
+  Organization             = {IEEE Standards Association},
+  Year                     = {2013},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2015.05.15}
+}
+
+@Standard{Bluetooth40Spec2010,
+  Title                    = {BLUETOOTH SPECIFICATION Version 4.0},
+  Institution              = {Bluetooth},
+  Year                     = {2010},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.23}
+}
+
+@Standard{AesNist2001,
+  Title                    = {Announcing the ADVANCED ENCRYPTION STANDARD (AES)},
+  Institution              = {National Institute of Standards and Technology},
+  Month                    = {November},
+  Url                      = {http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf},
+  Year                     = {2001},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.23}
+}
+
+@Standard{UsabilityISO1998,
+  Title                    = {ISO 9241-11: Guidance on Usability},
+  Organization             = {International Standards Organization (ISO)},
+  Year                     = {1998},
+
+  Owner                    = {egaebel},
+  Timestamp                = {2016.04.23}
+}
+
