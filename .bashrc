@@ -33,6 +33,7 @@ esac
 # uncomment for a colored prompt, if the terminal has the capability; turned
 # off by default to not distract the user: the focus in a terminal window
 # force_color_prompt=yes
+force_color_prompt=true
 if [ -n "$force_color_prompt" ]; then
 	if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
 	# We have color support; assume it's compliant with Ecma-48
@@ -55,13 +56,13 @@ unset color_prompt force_color_prompt
 
 #For ssh connection terminals---------------------------------------------------------
 # If this is an xterm set the title to user@host:dir
-case "$TERM" in
-xterm*|rxvt*)
-PS1="\h::\w>>"
-;;
-*)
-;;
-esac
+#case "$TERM" in
+    #xterm*|rxvt*)
+    #PS1="\h::\w>>"
+    #;;
+    #*)
+    #;;
+    #esac
 #--------------------------------------------------------------------------------------
 
 #--------------------------------------------------------------------------------------
@@ -85,6 +86,3 @@ fi
 #--------------------------------------------------------------------------------------
 source $HOME/.bash_profile
 #--------------------------------------------------------------------------------------
-
-#--torch
-. /home/egaebel/Programs/torch/install/bin/torch-activate
