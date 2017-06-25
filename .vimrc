@@ -9,6 +9,9 @@ set display=lastline
 " Use color syntax highlighting.
 syntax on
 
+" Set color scheme
+color delek
+
 " Color specifications. Change them as you would like.
 
 hi Comment	term=none	ctermfg=gray	guifg=Gray

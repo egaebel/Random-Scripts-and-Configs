@@ -13,16 +13,9 @@ export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
-PATH=$PATH:/usr/bin/ghc:$HOME/.local/bin:$HOME/bin:.
-#PATH=$HOME/anaconda3/bin:$PATH
-#PATH=$HOME/anaconda/bin:$PATH
+PATH=$PATH:$HOME/.local/bin:$HOME/bin:.
 
 export PATH
 
-# PYTHONPATH for GNURadio
-export PYTHONPATH=/opt/local/lib/python2.7/dist-packages/
-
-#OpenCV library location 
-export OpenCV_LIBS=~/Programs/openCV/opencv/build
-export OpenCV_DIR=~/Programs/openCV/opencv/build
-PATH=$PATH:~/Programs/openCV
+# Tmux picks up .bash_profile not .bashrc
+source ~/.bashrc

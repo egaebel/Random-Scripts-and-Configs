@@ -29,26 +29,7 @@ my_rlogin () {
 	ssh -to ServerAliveInterval=60 -o PreferredAuthentications=publickey egaebel@rlogin.cs.vt.edu
 }
 alias myrlogin=my_rlogin
-
-server_rlogin(){
-    ssh -v -X -to ServerAliveInterval=60 -o PreferredAuthentications=publickey egaebel@rlogin.cs.vt.edu "cd ~/cs3214/projects/project-5-web-server/ ; bash"
-}
-alias shell=server_rlogin
-
-dat_base_login() {
-    psql -h cs4604.cs.vt.edu -U "egaebel" -d "Dat Base"
-}
-alias datbase=dat_base_login
 #--------------------------------------------------------------------------------------
-
-#aliases for common (usually deep) directories------------------------------------------
-alias mypapers='cd ~/grad-docs/research/papers'
-alias survey='cd ~/grad-docs/research/survey-paper--2014/paper/'
-alias thesis='cd ~/grad-docs/research/thesis'
-alias lgtm='cd ~/grad-docs/research/thesis/lgtm'
-alias eceproj='cd ~/grad-docs/spring-2015/ece-5454/project/ece5454-s15/'
-alias ppdl='cd ~/grad-docs/research/privacy-preserving-neural-networks'
-#---------------------------------------------------------------------------------------
 
 #--------------------------------------------------------------------------------------
 # Add an "alert" alias for long running commands. Use like so:
@@ -56,17 +37,39 @@ alias ppdl='cd ~/grad-docs/research/privacy-preserving-neural-networks'
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 #--------------------------------------------------------------------------------------
 
-# Aliases for ssh-ing into aws instances-----------------------------------------------
-alias awsspatialdb='ssh -X -i ~/.ssh/aws/aws-cs6604-crime-data-key.pem -o ServerAliveInterval=60 ubuntu@52.90.189.212'
-# Probably won't ever use this again. If you see this comment, delete it and the line below if you haven't used this server....
-#alias free-nn-torch-aws='ssh -X -i ~/.ssh/aws/aws-free-torch-nn-workstation.pem -o ServerAliveInterval=60 ubuntu@54.88.61.231'
-cnn_torch_alias() {
-	ssh -X -i ~/.ssh/aws/torch-ami-nn-key.pem -o ServerAliveInterval=60 ubuntu@"$1"
-}
-alias cnn-torch-aws=cnn_torch_alias
-#--------------------------------------------------------------------------------------
-
-
 # Alias for system stuff---------------------------------------------------------------
 alias restart-cups='sudo /etc/init.d/cups restart'
 #--------------------------------------------------------------------------------------
+
+alias sgs='cd ~/workspace/Programs/candlelight-experiments/sentence-graphs-prototype/'
+
+# Tmux windows creation functions
+tmux_startup_func() {
+    SESSION_NAME="default"
+    PROJECT_ROOT="~/workspace/Programs/candlelight-experiments/sentence-graphs-prototype"
+    #tmux has-session -t $SESSION_NAME &> /dev/null
+    #if [ $? != 0 ]; then
+        tmux start-server
+
+        # Create session and windows
+        tmux new-session -d -s $SESSION_NAME -n "main"
+        tmux new-window -t $SESSION_NAME:1 -n "monitoring"
+        tmux new-window -t $SESSION_NAME:2 -n "bash-1"
+        tmux new-window -t $SESSION_NAME:3 -n "bash-2"
+
+        # Jump to project directories
+        tmux send-keys -t $SESSION_NAME:0 "cd $PROJECT_ROOT" Enter
+        tmux send-keys -t $SESSION_NAME:1 "cd $PROJECT_ROOT" Enter
+        tmux send-keys -t $SESSION_NAME:2 "cd $PROJECT_ROOT" Enter
+        tmux send-keys -t $SESSION_NAME:3 "cd $PROJECT_ROOT" Enter
+
+        # Run programs in windows
+        tmux send-keys -t $SESSION_NAME:0 "source bin/activate" Enter
+        tmux send-keys -t $SESSION_NAME:1 "htop" Enter
+
+        # Set main menu and attach
+        tmux select-window -t $SESSION_NAME:0
+        tmux attach-session -t $SESSION_NAME
+    #fi
+}
+alias tmux-start=tmux_startup_func
