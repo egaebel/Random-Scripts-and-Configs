@@ -12,6 +12,8 @@ shopt -s histappend
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=1000
 HISTFILESIZE=2000
+# Immediately append to history file
+PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
 #--------------------------------------------------------------------------------------
 
 # check the window size after each command and, if necessary,
