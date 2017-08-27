@@ -41,6 +41,9 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 alias restart-cups='sudo /etc/init.d/cups restart'
 #--------------------------------------------------------------------------------------
 
+alias pro='cd ~/workspace/Programs/'
+alias web='cd ~/workspace/Programs/ethangaebel-dot-com'
+alias wdocs='cd ~/workspace/workspace-documents/'
 alias sgs='cd ~/workspace/Programs/candlelight-experiments/sentence-graphs-prototype/'
 
 # Tmux windows creation functions
