@@ -12,6 +12,8 @@ shopt -s histappend
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=1000
 HISTFILESIZE=2000
+# Immediately append to history file
+PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
 #--------------------------------------------------------------------------------------
 
 # check the window size after each command and, if necessary,
@@ -83,12 +85,8 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 #--------------------------------------------------------------------------------------
 
-#--------------------------------------------------------------------------------------
-source $HOME/.bash_profile
-#--------------------------------------------------------------------------------------
-
 # The next line updates PATH for the Google Cloud SDK.
-source '/home/egaebel/Programs/google-cloud-platform-tutorials/google-cloud-sdk/path.bash.inc'
+#source '/home/egaebel/Programs/google-cloud-platform-tutorials/google-cloud-sdk/path.bash.inc'
 
 # The next line enables shell command completion for gcloud.
-source '/home/egaebel/Programs/google-cloud-platform-tutorials/google-cloud-sdk/completion.bash.inc'
+#source '/home/egaebel/Programs/google-cloud-platform-tutorials/google-cloud-sdk/completion.bash.inc'
