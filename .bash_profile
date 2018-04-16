@@ -13,8 +13,7 @@ export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
-PATH=$PATH:$HOME/.local/bin:$HOME/bin:.
-
+PATH=$HOME/.local/bin:$PATH:$HOME/bin:.:/usr/local/bin
 export PATH
 
 # Tmux picks up .bash_profile not .bashrc
