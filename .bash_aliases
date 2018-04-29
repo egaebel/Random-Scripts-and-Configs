@@ -41,15 +41,21 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 alias restart-cups='sudo /etc/init.d/cups restart'
 #--------------------------------------------------------------------------------------
 
-alias pro='cd ~/workspace/Programs/'
-alias web='cd ~/workspace/Programs/ethangaebel-dot-com'
-alias wdocs='cd ~/workspace/workspace-documents/'
-alias sgs='cd ~/workspace/Programs/candlelight-experiments/sentence-graphs-prototype/'
+if [[ -d "~/workspace/Programs/" ]]; then
+    PROGRAMS="$HOME/workspace/Programs"
+else
+    PROGRAMS="$HOME/Programs"
+fi
+alias pro='cd "$PROGRAMS"'
+alias web='cd "$PROGRAMS"/ethangaebel-dot-com'
+alias sgs='cd $PROGRAMS/candlelight-experiments/sentence-graphs-prototype/'
+
+alias wdocs='cd $HOME/workspace/workspace-documents/'
 
 # Tmux windows creation functions
 tmux_startup_func() {
     SESSION_NAME="default"
-    PROJECT_ROOT="~/workspace/Programs/candlelight-experiments/sentence-graphs-prototype"
+    PROJECT_ROOT="$PROGRAMS/candlelight-experiments/sentence-graphs-prototype"
     #tmux has-session -t $SESSION_NAME &> /dev/null
     #if [ $? != 0 ]; then
         tmux start-server
