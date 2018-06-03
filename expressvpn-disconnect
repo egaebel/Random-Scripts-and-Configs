@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Express VPN fix
+fix_resolv_conf() {
+    echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf
+    echo "New contents of /etc/resolv.conf:"
+    sudo cat /etc/resolv.conf
+}
+
+# Force me to enter sudo password before running disconnect, so that I only
+# disconnect if the password is correct.
+sudo ls > /dev/null
+expressvpn disconnect
+fix_resolv_conf
