@@ -2,7 +2,8 @@
 
 # Express VPN fix
 fix_resolv_conf() {
-    echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf
+    # echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf
+    echo "nameserver 192.168.1.157" | sudo tee /etc/resolv.conf
     echo "New contents of /etc/resolv.conf:"
     sudo cat /etc/resolv.conf
 }
